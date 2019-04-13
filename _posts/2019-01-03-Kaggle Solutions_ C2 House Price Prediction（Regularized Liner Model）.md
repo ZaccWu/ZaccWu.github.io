@@ -58,7 +58,8 @@ First, let's look at the basic data
 ```python
 train.head()
 ```
-![Output](https://img-blog.csdnimg.cn/2019020120294079.png)
+Output:
+![](https://img-blog.csdnimg.cn/2019020120294079.png)
 ```python
 data.info()
 ```
