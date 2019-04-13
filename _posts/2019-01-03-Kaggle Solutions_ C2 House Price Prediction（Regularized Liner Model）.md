@@ -9,8 +9,6 @@ catalog: true
 tags:                               
     - Kaggle
 ---
-
-# Solutions for C2 House Price Prediction（Regularized Liner Model）
 ***
 ## 1 Introduction
 ### 1.1 Competition Description
