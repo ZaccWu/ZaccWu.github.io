@@ -1,14 +1,4 @@
----
-layout:     post                    
-title:      Kaggle: Regularized Liner Model            
-subtitle:   Solutions for "House Price Prediction"
-date:       2019-01-03              
-author:     ZIYUE WU                
-header-img: img/post-bg-2015.jpg    
-catalog: true                       
-tags:                               
-    - Kaggle
----
+
 # Kaggle Solutions：House Price Prediction（Regularized Liner Model）
 ***
 ## 1 Introduction
