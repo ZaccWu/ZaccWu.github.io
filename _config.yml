@@ -5,9 +5,9 @@ header-img: img/page.png
 email: 670122025@qq.com
 description: "Every failure is leading towards success."
 keyword: "Vimz's, Vimz's Blog, 武子越的博客, ZIYUE WU, 武子越, Data Science, Machine Learning, Artificial Intelligence"
-url: "http://Tinky2013.github.io"          # your host, for absolute URL
+url: "http://wuziyue.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/Tinky2013/Tinky2013.github.io.git" # you code repository
+github_repo: "https://github.com/Tinky2013/wuziyue.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
