@@ -3,7 +3,7 @@ title: ZIYUE WU's Blog
 SEOTitle: 武子越的博客 | ZIYUE WU's Blog
 header-img: img/page.png
 email: 670122025@qq.com
-description: "Every failure is leading towards success."
+description: "Learn By Doing, Keep Your Hands Dirty."
 keyword: "Vimz's, Vimz's Blog, 武子越的博客, ZIYUE WU, 武子越, Data Science, Machine Learning, Artificial Intelligence"
 url: "http://Tinky2013.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -18,7 +18,7 @@ sidebar-avatar: /img/head.JPG      # use absolute URL, seeing it's used in both 
 
 # SNS settings
 RSS: false
-#zhihu_username:     DBET
+zhihu_username:     DBET
 github_username:    Tinky2013
 #facebook_username:  baiying.qiu.7
 #jianshu_username:   e71990ada2fd
@@ -54,30 +54,29 @@ kramdown:
 
 
 
-# 评论系统
-# Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
+# 评论
+Disqus（https://disqus.com/）
+disqus_username: tinky2013
 
 # Gitalk
-gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+#gitalk:
+#  enable: true    #是否开启Gitalk评论
+#  clientID:                           #生成的clientID
+#  clientSecret:    #生成的clientSecret
+#  repo: tinky2013.github.io    #仓库名称
+#  owner: tinky2013    #github用户名
+#  admin: tinky2013
+#  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
-# 统计
 
 # Analytics settings
 # Baidu Analytics
-#ba_track_id: b50bf2b12b5338a1845e33832976fd68
+#ba_track_id: xxx
 
 # Google Analytics
-#ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-#ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+#ga_track_id: 'UA-xxxxxxxx-x'       
+#ga_domain: xxx.top               # 默认 auto
 
 
 
@@ -98,17 +97,11 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "CSDN.ZIYUE WU",
+        title: "CSDN[ZIYUE WU]",
         href: "https://blog.csdn.net/Tinky2013"
     },
 #    {
-#        title: "简书·BY",
-#        href: "http://www.jianshu.com/u/e71990ada2fd"
-#    },{
-#        title: "Apple",
-#        href: "https://apple.com"
-#    },{
-#        title: "Apple Developer",
-#        href: "https://developer.apple.com/"
+#        title: "简书",
+#        href: "http://www.jianshu.com/u/xxx"
 #    }
 ]
