@@ -1,5 +1,5 @@
 ---
-layout:     post                    
+layout:     default                    
 title:      Kaggle: Regularized Liner Model            
 subtitle:   Solutions for "House Price Prediction"
 date:       2019-01-03              
