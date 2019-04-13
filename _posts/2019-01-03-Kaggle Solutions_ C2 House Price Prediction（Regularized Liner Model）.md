@@ -1,5 +1,6 @@
 
-# Kaggle Solutions：House Price Prediction（Regularized Liner Model）
+# Regularized Liner Model
+Solutions for Kaggle "House Price Prediction"
 ***
 ## 1 Introduction
 ### 1.1 Competition Description
