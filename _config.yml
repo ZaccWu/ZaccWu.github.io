@@ -55,8 +55,8 @@ kramdown:
 
 
 # 评论
-Disqus（https://disqus.com/）
-disqus_username: tinky2013
+# Disqus（https://disqus.com/）
+# disqus_username: tinky2013
 
 # Gitalk
 #gitalk:
