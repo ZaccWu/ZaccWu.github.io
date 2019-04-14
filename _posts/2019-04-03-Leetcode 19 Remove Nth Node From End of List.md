@@ -21,7 +21,8 @@ Note:
 Given n will always be valid.
 Follow up:
 Could you do this in one pass?
-* C Code
+
+C Code
 ```c
 /**
  * Definition for singly-linked list.
@@ -45,7 +46,8 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n) {
 }
 ```
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190414133548580.gif)
-* Python Code
+
+Python Code
 ```python
 # Definition for singly-linked list.
 # class ListNode(object):
