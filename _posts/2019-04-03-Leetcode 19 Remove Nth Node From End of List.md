@@ -45,7 +45,7 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n) {
     return head;
 }
 ```
-![19.gif](https://github.com/Tinky2013/Tinky2013.github.io/raw/master/img/Leetcode/19.gif)
+![GIF]({{site.baseurl}}/img/Leetcode/19.gif)
 
 Python Code
 ```python
