@@ -4,7 +4,7 @@ title:      Leetcode 19               # 标题
 subtitle:   Remove Nth Node From End of List #副标题
 date:       2019-04-03             # 时间
 author:     WZY                      # 作者
-header-img: img/post-bg-2015.jpg    #这篇文章标题背景图片
+header-img: img/Leetcode/19.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                               #标签
     - Leetcode
@@ -45,7 +45,7 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n) {
     return head;
 }
 ```
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190414133548580.gif)
+![在这里插入图片描述](https://github.com/Tinky2013/Tinky2013.github.io/blob/master/img/Leetcode/19.gif)
 
 Python Code
 ```python
