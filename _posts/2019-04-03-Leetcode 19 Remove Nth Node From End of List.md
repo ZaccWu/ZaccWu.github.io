@@ -22,6 +22,8 @@ Given n will always be valid.
 Follow up:
 Could you do this in one pass?
 
+The main problem we will encounter when solving the problem is that the linked list cannot be searched backwards. So it is necessary to find another way to meet with the request. If we want to delete the n-th node from the end, we need to know the length of the link list first. But here we have a more simple solution, and the process will be showed in the .gif below.
+
 C Code
 ```c
 /**
@@ -46,6 +48,10 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n) {
 }
 ```
 ![](https://github.com/Tinky2013/Tinky2013.github.io/raw/master/img/Leetcode/19.gif)
+
+The core idea is that we can state two pointers, one moves before another, the gap between the two pointers remains n.
+
+The relatively efficient solution with Python has the same ideas with C solution.
 
 Python Code
 ```python
