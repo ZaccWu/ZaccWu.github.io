@@ -2,7 +2,7 @@
 layout:     post                    # 使用的布局（不需要改）
 title:      Leetcode 19               # 标题 
 subtitle:   Remove Nth Node From End of List #副标题
-date:       2019-04-03             # 时间
+date:       2019-04-16             # 时间
 author:     WZY                      # 作者
 header-img: img/Leetcode/19.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
@@ -21,6 +21,8 @@ Note:
 Given n will always be valid.
 Follow up:
 Could you do this in one pass?
+
+***
 
 The main problem we will encounter when solving the problem is that the linked list cannot be searched backwards. So it is necessary to find another way to meet with the request. If we want to delete the n-th node from the end, we need to know the length of the link list first. But here we have a more simple solution, and the process will be showed in the .gif below.
 
