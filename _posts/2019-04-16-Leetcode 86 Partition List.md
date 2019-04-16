@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Leetcode 19               # 标题 
+title:      Leetcode 86               # 标题 
 subtitle:   Partition List #副标题
 date:       2019-04-16             # 时间
 author:     WZY                      # 作者
