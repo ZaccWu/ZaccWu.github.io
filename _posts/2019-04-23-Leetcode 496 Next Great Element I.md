@@ -89,3 +89,42 @@ class Solution(object):
         return map(helper, nums1)
         
 ```
+
+**Other solutions**
+Here another faster Python solution that use stack:
+```python
+class Solution(object):
+    def nextGreaterElement(self, nums1, nums2):
+        """
+        :type nums1: List[int]
+        :type nums2: List[int]
+        :rtype: List[int]
+        """
+        if not nums1 or not nums2:
+            return []
+        
+        set_1 = set(nums1)
+        memo = {nums2[-1]: -1}
+        
+        N = len(nums2)
+        stack = [nums2[-1]]
+        
+        for i in range(N-2, -1, -1):
+            n = nums2[i]
+            while stack and stack[-1] < n:
+                stack.pop()
+            
+            if n in set_1 and stack:
+                memo[n] = stack[-1]
+            
+            stack.append(n)
+            
+        res = []
+        
+        for n in nums1:
+            if n in memo:
+                res.append(memo[n])
+            else:
+                res.append(-1)
+        return res
+```
