@@ -90,7 +90,7 @@ class Solution(object):
         
 ```
 
-**Other solutions**
+### Other solutions
 Here another faster Python solution that use stack:
 ```python
 class Solution(object):
