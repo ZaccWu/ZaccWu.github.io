@@ -97,8 +97,8 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "CSDN[ZIYUE WU]",
-        href: "https://blog.csdn.net/Tinky2013"
+        title: "LINEN YU .ZJU",
+        href: "https://cestunyu.github.io/"
     },
 #    {
 #        title: "简书",
