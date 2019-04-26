@@ -95,7 +95,7 @@ service-worker: true
 information: [
     {
         title: "CV",
-        href:
+        href: "https://github.com/Tinky2013/Tinky2013.github.io/blob/master/img/cv.pdf"
     },{
         title: "project",
         href:
