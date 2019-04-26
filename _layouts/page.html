@@ -192,15 +192,13 @@ layout: default
                 </section>
 		<!-- CV -->  
 		{% if site.information %}
-                <section>
-                    <hr>
-                    <h5>CV</h5>
-		    <ul class="list-inline">
-		        {% for information in site.information %}
-			    <li><a href="{{information.href}}">{{information.title}}</a></li>
-		        {% endfor %}
-		    </ul>
-                </section>
+	    	<hr>
+	    	<h5>CV</h5>
+	    	<ul class="list-inline">
+		    {% for information in site.information %}
+		    	<li><a href="{{information.href}}">{{information.title}}</a></li>
+		    {% endfor %}
+	    	</ul>
                 {% endif %}
 		    
                 <!-- Friends Blog -->
