@@ -155,7 +155,16 @@ layout: default
         			</div>
                 </section>
                 {% endif %}
-
+		<!-- CV -->  
+		{% if site.information %}
+	    	<hr>
+	    	<h5>CV</h5>
+	    	<ul class="list-inline">
+		    {% for information in site.information %}
+		    	<li><a href="{{information.href}}">{{information.title}}</a></li>
+		    {% endfor %}
+	    	</ul>
+                {% endif %}
                 <!-- Friends Blog -->
                 {% if site.friends %}
                 <hr>
