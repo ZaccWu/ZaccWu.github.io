@@ -151,11 +151,8 @@ layout: default
 		    {% for information in site.information %}
 		    	<li><a href="{{information.href}}">{{information.title}}</a></li>
 		    {% endfor %}
-		      <h5>CV</h5>
-		      <iframe
-		         src="/img/cv.pdf"
-		         frameborder="no"
-		      ></iframe>
+		  <li class="menu-item menu-item-cv"><a href="/img/cv.pdf" rel="section">
+		  <i class="menu-item-icon fa fa-fw fa-file"></i> <br/>CV</a></li>
 	    	</ul>
                 {% endif %}
               
