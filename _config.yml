@@ -2,7 +2,7 @@
 title: ZIYUE WU's Blog
 SEOTitle: 武子越的博客 | ZIYUE WU's Blog
 header-img: img/zjubackground.png
-email: 670122025@qq.com
+email: 3170104155@zju.edu.cn
 description: "Learn By Doing, Keep Your Hands Dirty."
 keyword: "Vimz's, Vimz's Blog, 武子越的博客, ZIYUE WU, 武子越, Data Science, Machine Learning, Artificial Intelligence"
 url: "http://Tinky2013.github.io"          # your host, for absolute URL
@@ -11,18 +11,18 @@ github_repo: "https://github.com/Tinky2013/Tinky2013.github.io.git" # you code r
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "The pursuit of truth never ends"
+sidebar-about-description: "A continuous learner"
 sidebar-avatar: /img/photo.JPG      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
-zhihu_username:     DBET
+zhihu_username:     none
 github_username:    Tinky2013
-#facebook_username:  baiying.qiu.7
-#jianshu_username:   e71990ada2fd
-#twitter_username:   qiubaiying
+facebook_username:  none
+jianshu_username:   none
+twitter_username:   none
 
 
 
