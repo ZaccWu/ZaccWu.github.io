@@ -151,7 +151,11 @@ layout: default
 		    {% for information in site.information %}
 		    	<li><a href="{{information.href}}">{{information.title}}</a></li>
 		    {% endfor %}
-		    <li><object type="application/pdf" data="/img/cv.pdf" id="review" style="width:800px;  height:750px; margin-top:45px;  margin-left:500px">CV</object></li>
+		      <h5>CV</h5>
+		      <iframe
+		         src="/img/cv.pdf"
+		         frameborder="no"
+		      ></iframe>
 	    	</ul>
                 {% endif %}
               
