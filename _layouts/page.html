@@ -191,13 +191,13 @@ layout: default
                     </div>
                 </section>
 		<!-- CV -->  
-		{% if site.cv %}
+		{% if site.information %}
                 <section>
                     <hr>
                     <h5>CV</h5>
 		    <ul class="list-inline">
-		        {% for friend in site.friends %}
-			    <li><a href="{{friend.href}}">{{friend.title}}</a></li>
+		        {% for information in site.information %}
+			    <li><a href="{{information.href}}">{{information.title}}</a></li>
 		        {% endfor %}
 		    </ul>
                 </section>
