@@ -8,9 +8,7 @@ header-img: img/Leetcode/19.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                               #标签
     - Leetcode
----
-<font face="times new roma" >
-    
+--- 
 # 19 Remove Nth Node From End of List
 **[Medium]**
 Given a linked list, remove the n-th node from the end of list and return its head.
@@ -84,4 +82,3 @@ class Solution(object):
         return head
 ```
 
-</font>
