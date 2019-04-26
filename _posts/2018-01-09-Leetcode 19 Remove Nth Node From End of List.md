@@ -9,6 +9,8 @@ catalog: true                       # 是否归档
 tags:                               #标签
     - Leetcode
 ---
+<font face="times new roma" >
+    
 # 19 Remove Nth Node From End of List
 **[Medium]**
 Given a linked list, remove the n-th node from the end of list and return its head.
@@ -81,3 +83,5 @@ class Solution(object):
         slow.next = slow.next.next
         return head
 ```
+
+</font>
