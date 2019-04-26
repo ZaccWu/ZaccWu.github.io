@@ -110,12 +110,13 @@ layout: default
                         {% endif %}
 
 			 <li class="menu-item menu-item-cv"><a href="/img/cv.pdf" rel="section">
+				 <i class="menu-item-icon fa fa-fw fa-user"></i>
 				 <br/><strong>CV</strong></a></li>
-			<!--
+
                         {% if site.sidebar-about-description %}
                             <p>{{site.sidebar-about-description}}</p>
                         {% endif %}
-			-->
+
                         <!-- SNS Link -->
                         <ul class="list-inline">
                             {% if site.RSS %}
@@ -201,8 +202,6 @@ layout: default
 	    	<hr>
 	    	<h5>DETAILS</h5>
 	    	<ul class="list-inline">
-		    <li class="menu-item menu-item-cv"><a href="/img/cv.pdf" rel="section">
-		    <br/>CV</a></li>
 		    {% for information in site.information %}
 		    	<li><a href="{{information.href}}">{{information.title}}</a></li>
 		    {% endfor %}
