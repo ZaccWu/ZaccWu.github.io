@@ -95,10 +95,10 @@ service-worker: true
 
 information: [
     {
-        title: "CV"
+        title: "CV",
         href:
     },{
-        title: "project"
+        title: "project",
         href:
     }
 ]
