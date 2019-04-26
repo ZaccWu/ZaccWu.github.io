@@ -117,7 +117,9 @@ layout: default
                             <p>{{site.sidebar-about-description}}</p>
                         {% endif %}
 			-->
-			    
+			{% if site.email %}
+                            <p>✉️ {{site.email}}</p>
+                        {% endif %}  
                         <!-- SNS Link -->
                         <ul class="list-inline">
                             {% if site.RSS %}
@@ -191,11 +193,7 @@ layout: default
                                 </a>
                             </li>
                             {% endif %}
-                            
                         </ul>
-                        {% if site.email %}
-                            <p>✉️ {{site.email}}</p>
-                        {% endif %}
                     </div>
                 </section>
 		<!-- CV -->  
