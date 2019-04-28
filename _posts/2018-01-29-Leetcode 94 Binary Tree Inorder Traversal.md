@@ -36,9 +36,9 @@ C Code
  */
 void recur(struct TreeNode* root, int* count){
     if (root == NULL) return;
-    recur(root->left, count);   # For every node, count the number of nodes in its left subtree.
-    *count += 1;                # Count itself.
-    recur(root->right, count);  # Count the number of nodes in its right subtree.
+    recur(root->left, count);   /* For every node, count the number of nodes in its left subtree.*/
+    *count += 1;                /* Count itself.*/
+    recur(root->right, count);  /* Count the number of nodes in its right subtree.*/
 }
 
 int* inorderTraversal(struct TreeNode* root, int* returnSize){    
