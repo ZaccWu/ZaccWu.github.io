@@ -46,7 +46,7 @@ int* inorderTraversal(struct TreeNode* root, int* returnSize){
     int top = -1;
     int i = 0;
     
-    recur(root, &count);    # We need this recur function to count how many nodes we have in the tree.
+    recur(root, &count);    /* We need this recur function to count how many nodes we have in the tree.*/
     int* out = (int *)malloc(sizeof(int)*(count));
     int** stack = (int *)malloc(sizeof(int*)*(count));
     
@@ -54,12 +54,12 @@ int* inorderTraversal(struct TreeNode* root, int* returnSize){
         while(root != NULL){
             top++;
             stack[top] = root;
-            root = root->left;  # First we need to add the left part.
+            root = root->left;  /* First we need to add the left part.*/
         }
         root = stack[top];
         out[i] = root->val; i++;
         top--;
-        root = root->right;    # If the node don't have rightchild, return to the PARENT NODE of that node.
+        root = root->right;    /* If the node don't have rightchild, return to the PARENT NODE of that node.*/
     }
     
     *returnSize = count;
