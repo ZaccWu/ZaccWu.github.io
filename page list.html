@@ -1,0 +1,173 @@
+---
+layout: page
+title: "PAGE LIST"
+description: "A continuous learner."
+header-img: "img/hangzhou.jpg"
+---
+
+<!-- Language Selector -->
+<!-- <select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
+    <option value="0" selected> 中文 Chinese </option>
+    <option value="1"> 英文 English </option>
+</select> -->
+
+<!-- Chinese Version -->
+<div class="zh post-container">
+
+    <!--copied from markdown -->
+    <h3>ABOUT ME</h3>
+    <p>Hello，I'm <strong>ZIYUE WU</strong>, a sophomore in  Chu Kochen Honors College, Zhejiang University, majoring Statistics & Information management and system.</p>
+
+    <hr>
+    
+    <h3>PERSONAL DETAILS</h3>
+    <p>
+    <ul>
+        <li>Name: ZIYUE WU （武子越）</li>
+        <li>Address: 866 Yuhangtang Rd, Hangzhou 310058, China </li>
+        <li>Email: 3170104155@zju.edu.cn </li>
+        <li>My Github Pages: <a href="https://github.com/Tinky2013">👉github.com/Tinky2013</a> </li>
+        <li>My CSDN Pages: <a href="https://blog.csdn.net/Tinky2013">👉blog.csdn.net/Tinky2013</a> </li>
+    </ul>
+    </p>
+    
+    <hr>
+
+    <h3>RESEARCH INTEREST </h3>
+    <p>
+        I'm really interested in the interdisciplinary field of <strong>Statistics and Computer Science</strong> 
+        and I hope to develop towards the field of data science.
+        My research interests broadly include topics in <strong>machine learning and algorithms</strong>, 
+        such as convex optimization, graphic model, reinforcement learning, 
+        representation learning, distributed optimization, high-dimensional statistics and so on. 
+    </p>
+    
+    <hr>
+
+    <h3>EDUCATION </h3>
+    <p>
+    <ul>
+        <li>Bachelor of Science in Statistics (Honors), Zhejiang University, P.R. China, 2017.09 - 2021.06</li>
+        <li>Bachelor of Economics in Information Management and System (Honors), Zhejiang University, P.R. China, 2017.09 - 2021.06</li>
+        <li>Donghua Highschool, Dongguan, Guangdong, P.R. China, 2014.09 - 2017.06</li>
+    </ul>
+    <h4>EXCHANGE EXPERIENCE </h4>
+    <ul>
+        <li>Visiting student in the University of Lady Margaret Hall, Oxford, UK, Aug 2018</li>
+    </ul>
+    </p>
+    </div>
+
+    <hr>
+
+    <h3>AWARD</h3>
+    <p>
+    <ul>
+        <li>National Scholarship, 2018 (Top 2% among 500+ undergraduates in Chu Kochen Honors College.)</li>
+        <li>First-Class Scholarship for Outstanding Students, 2018 (Top 10% among 500+ undergraduates in Chu Kochen Honors College for academic education.)</li>
+        <li>Best Presentation Award of Group Academic Project of LMH, Oxford, Aug 2018</li>
+        <li>Scholarship of Public Service, 2018</li>
+        <li>Scholarship of Recreational activity, 2018</li>
+        <li>Scholarship of Social Work, 2018</li>
+    </ul>
+    </p>
+
+    <hr>
+
+    <h3>OTHER SKILLS AND HOBBIES</h3>
+    <p>I'm not a typical tech geek. In addition to exploring algorithm and coding, I enjoy all kinds of outdoor activities including traveling, mountain climbing, cycling and so on.
+        I joined the school's swimming team and soccer team and like to associate with all kinds of people</p>
+
+    <p>What's more, I especially like art and music, as well as poetry and photography. I'm the leader of Tsingyun Piano Club of Zhejiang University. I'm also good at playing guitar, percussion music as well as making electronic music production.</p>
+<!-- English Version -->
+<!-- <div class="en post-container">
+    <blockquote><p>Yet another iOS Developer. <br>
+    Yet another Life-long Student.</p></blockquote>
+    <p>Hi, I am <strong>ZIYUE WU</strong>，a student in Zhejiang University and I live in Hangzhou</p>
+    
+    <p>I have a wide range of hobbies and I am a technophile. But in my spare time, I also like all kinds of sports, travel, art and photography. I am good at guitar, percussion and electronic music</p>
+    <p>This is my personal blog, through making Github Pages and Jekyll.My GitHub  👉 <a href="http://github.com/Tinky2013">Github·WZY</a>.</p>
+</div> -->
+
+<!-- Handle Language Change -->
+<script type="text/javascript">
+    // get nodes
+    var $zh = document.querySelector(".zh");
+    var $en = document.querySelector(".en");
+    var $select = document.querySelector("select");
+    // bind hashchange event
+    window.addEventListener('hashchange', _render);
+    // handle render
+    function _render(){
+        var _hash = window.location.hash;
+        // en
+        if(_hash == "#en"){
+            $select.selectedIndex = 1;
+            $en.style.display = "block";
+            $zh.style.display = "none";
+        // zh by default
+        }else{
+            // not trigger onChange, otherwise cause a loop call.
+            $select.selectedIndex = 0;
+            $zh.style.display = "block";
+            $en.style.display = "none";
+        }
+    }
+    // handle select change
+    function onLanChange(index){
+        if(index == 0){
+            window.location.hash = "#zh"
+        }else{
+            window.location.hash = "#en"
+        }
+    }
+    // init
+    _render();
+</script>
+
+
+<!-- Gitalk 评论 start  -->
+{% if site.gitalk.enable %}
+<!-- Gitalk link  -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+    <script type="text/javascript">
+    var gitalk = new Gitalk({
+    clientID: '{{site.gitalk.clientID}}',
+    clientSecret: '{{site.gitalk.clientSecret}}',
+    repo: '{{site.gitalk.repo}}',
+    owner: '{{site.gitalk.owner}}',
+    admin: ['{{site.gitalk.admin}}'],
+    distractionFreeMode: {{site.gitalk.distractionFreeMode}},
+    id: 'about',
+    });
+    gitalk.render('gitalk-container');
+</script>
+{% endif %}
+<!-- Gitalk end -->
+
+ <!-- disqus 评论框 start  -->
+{% if site.disqus.enable %}
+
+<div class="comment">
+    <div id="disqus_thread" class="disqus-thread">
+    </div>
+</div>
+<!-- disqus 评论框 end -->
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "{{site.disqus.username}}";
+    var disqus_identifier = "{{site.disqus.username}}/{{page.url}}";
+    var disqus_url = "{{site.url}}{{page.url}}";
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+{% endif %}
