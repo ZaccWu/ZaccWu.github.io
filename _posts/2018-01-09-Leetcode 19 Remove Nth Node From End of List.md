@@ -49,7 +49,7 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n) {
     return head;
 }
 ```
-![](https://github.com/Tinky2013/Tinky2013.github.io/raw/master/img/Leetcode/19.gif)
+![](https://github.com/Tinky2013/Leetcode-solving/raw/master/img/19.gif)
 
 The core idea is that we can state two pointers, one moves before another, the gap between the two pointers remains n.
 
