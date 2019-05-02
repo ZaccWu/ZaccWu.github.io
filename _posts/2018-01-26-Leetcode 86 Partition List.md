@@ -55,7 +55,7 @@ struct ListNode* partition(struct ListNode* head, int x) {
 }
 ```
 
-![](https://github.com/Tinky2013/Tinky2013.github.io/raw/master/img/Leetcode/86.gif)
+![](https://github.com/Tinky2013/Leetcode-solving/raw/master/img/19.gif)
 Python is similar to C in implementing linked list operations. Here's the reference.
 
 Python Code
