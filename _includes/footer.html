@@ -220,6 +220,11 @@
 {% endif %}
 
 
+{% raw %}
+    {% if page.mathjax  %} 
+        <script type="text/javascript" src="https://basis-learning.github.io/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    {% endif %}
+{% endraw %}
 
 <!-- Side Catalog -->
 {% if page.catalog %}
