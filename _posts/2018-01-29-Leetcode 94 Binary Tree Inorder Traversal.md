@@ -107,3 +107,6 @@ class Solution(object):
             root = node.right
 ```
 
+Here's a dynamic figure from https://github.com/MisterBooo/LeetCodeAnimation that can help us easiler to understand the algorithm.
+
+![](https://github.com/Tinky2013/Leetcode-solving/raw/master/img/94.gif)
