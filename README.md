@@ -7,4 +7,4 @@
 
 最后，稳扎稳打，相信时间的力量。
 
-##### Here's Vizux Coding Lab, a place for really cool programmers!
+##### Here's VXLab, a place for really cool programmers!
