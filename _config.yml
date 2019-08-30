@@ -1,5 +1,5 @@
 # Site settings
-title: XGBLab 2019
+title: DTEmpire 7600
 SEOTitle: 武子越的博客 | ZIYUE WU's Blog
 header-img: img/zjubackground.png
 email: 3170104155@zju.edu.cn
@@ -11,7 +11,7 @@ github_repo: "https://github.com/Tinky2013/Tinky2013.github.io.git" # you code r
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "A continuous learner"
+sidebar-about-description: "Continuous learning! Just keep moving!"
 sidebar-avatar: /img/photo2.JPG      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
