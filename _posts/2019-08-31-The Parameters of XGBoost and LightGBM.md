@@ -11,6 +11,8 @@ tags:                               #标签
 --- 
 # The Parameters of XGBoost and LightGBM
 ***
+This passage summarize the most important and frequently used parameters in XGBoost and LightGBM, which can help us find the information more convenient when we are using these two models and frameworks.
+
 ## 1 Parameters of XGBoost
 There are three types of parameters that we need to focus on: General parameters, Booster parameters as well as Objective parameters.
 ### 1.1 General Parameters
