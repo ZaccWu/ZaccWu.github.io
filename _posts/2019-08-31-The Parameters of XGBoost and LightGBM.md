@@ -1,3 +1,14 @@
+---
+layout:     post                    # 使用的布局（不需要改）
+title:      The Parameters of XGBoost and LightGBM               # 标题 
+subtitle:    #副标题
+date:       2019-08-31             # 时间
+author:     WZY                      # 作者
+header-img: img/post-bg-universe.jpg    #这篇文章标题背景图片
+catalog: true                       # 是否归档
+tags:                               #标签
+    - Machine Learning
+--- 
 # The Parameters of XGBoost and LightGBM
 ***
 ## 1 Parameters of XGBoost
