@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改
-title:      Santander Customer Transaction Prediction: EDA and Baseline # 标题 
+title:      Santander Customer Transaction Prediction # 标题 
 subtitle:   Kaggle Competition #副标题
 date:       2019-09-02             # 时间
 author:     WZY                      # 作者
