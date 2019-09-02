@@ -1,16 +1,14 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Santander Customer Transaction Prediction: EDA and Baseline               # 标题 
-subtitle:   Kaggle Competition #副标题
-date:       2019-09-03             # 时间
+title:      判别式模型与生成式模型               # 标题 
+subtitle:   两类基本模型的理解 #副标题
+date:       2019-07-11             # 时间
 author:     WZY                      # 作者
 header-img: img/post-bg-universe.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                               #标签
-    - Kaggle
-
+    - Machine Learning
 --- 
-
 # Santander Customer Transaction Prediction: EDA and Baseline
 
 ## 1 Description
