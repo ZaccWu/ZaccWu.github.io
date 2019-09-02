@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改
-title:      S # 标题 
+title:      Santander: EDA and Baseline # 标题 
 subtitle:   Kaggle Competition #副标题
 date:       2019-09-02             # 时间
 author:     WZY                      # 作者
