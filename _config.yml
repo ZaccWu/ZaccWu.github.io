@@ -54,6 +54,7 @@ kramdown:
 
 
 # 评论
+intensedebate_comments: true
 # Disqus（https://disqus.com/）
 # disqus_username: tinky2013
 
