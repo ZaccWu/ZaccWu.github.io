@@ -1352,4 +1352,4 @@ submission['target']=predictions
 submission.to_csv(PATH+'submission.csv',index=False)
 ```
 
-The submission's public score here is 0.89889 and the private score is 0.90021.
+The simple submission's public score here is 0.89889 and the private score is 0.90021, which ranks 329/8780, top 3.7% on private broad.
