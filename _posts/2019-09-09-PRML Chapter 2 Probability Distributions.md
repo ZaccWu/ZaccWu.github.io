@@ -14,8 +14,8 @@ tags:                               #标签
 # PRML Chapter 2 Probability Distributions
 
 ## 2.1 Binary Variables
-* bernoulli distribution: $Bern(x | \mu) = \mu^{x}(1-\mu)^{1-x}$
-* binomial distribution: $Bin(m | N,\mu) = \frac{N!}{(N-m)!m!}\mu^{m}(1-\mu)^{N-m}$
+* bernoulli distribution: $Bern(x \| \mu) = \mu^{x}(1-\mu)^{1-x}$
+* binomial distribution: $Bin(m \| N,\mu) = \frac{N!}{(N-m)!m!}\mu^{m}(1-\mu)^{N-m}$
 
 ### 2.1.1 The beta distribution
 To get the MLE solution in a bayesian perspective, we need a prior distribution. Beta is a common one:
@@ -54,6 +54,7 @@ $$\mu_{k}^{ML} = \frac{m_{k}}{N}$$
 Now consider the conditional joint distribution, it is called multinomial distribution (here $\sum_{k=1}^{K}m_{k} = N$):
 
 $$Mult(m_{1}, m_{2}, \dots, m_{K} |\mu, N) = \frac{N!}{m_{1}!m_{2}!\dots m_{K}!}$$
+
 ### 2.2.1 The Dirichlet Distribution
 The prior distribution of parameter $\mu_k$ is Dirichlet distribution:
 
@@ -122,6 +123,7 @@ $$-\frac{1}{2}(x-\mu)^{T}\Sigma^{-1}(x-\mu) =
 -\frac{1}{2}(x_{b} - \mu_{b})^{T}\Lambda_{ba}(x_{a} - \mu_{a}) - \frac{1}{2}(x_{b} - \mu_{b})^{T}\Lambda_{bb}(x_{b} - \mu_{b})$$
 
 which is the exponential term of conditional Gaussian. Also, it is easy to know that:
+
 $$-\frac{1}{2}(x-\mu)^{T}\Sigma^{-1}(x-\mu) = -\frac{1}{2}x^{T}\Sigma^{-1}x + x^{T}\Sigma^{-1}\mu + const$$
 
 Apply this method to $p(x_a\|x_b)$ and $x_b$ is regarded as a constant. Compare the second order term $-\frac{1}{2}x_a^T\Lambda_{aa}x_a$ and the linear terms $x_a^T(\Lambda_{aa}\mu_{a} - \Lambda_{ab}(x_{b} - \mu_{b}))$ in $x_a$, we can get the variance and mean:
@@ -130,6 +132,7 @@ $$\Sigma_{a|b} = \Lambda_{aa}^{-1}$$
 
 $$\mu_{a|b} = \Sigma_{a|b}(\Lambda_{aa}\mu_{a} - \Lambda_{ab}(x_{b} - \mu_{b}))\\
         = \mu_{a} - \Lambda_{aa}^{-1}\Lambda_{ab}(x_{b} - \mu_{b})$$
+
 ### 2.3.2 Marginal Gaussian distributions
 To prove the marginal distribution $p(x_{a}) = \int p(x_{a}, x_{b})dx_{b}$ is Gaussian, the method is similar to 2.3.1, the results are:
 
@@ -175,12 +178,14 @@ $$E[y] = A\mu + b$$
 $$cov[y] = L^{-1} + A\Lambda^{-1}A^{T}$$
 
 Similarly, for conditional distribution, we have:
+
 $$E[x | y] = (\Lambda + A^{T}LA)^{-1}\{A^{T}L(y-b) + a\mu \}$$
 
 $$cov[x | y] = (\Lambda + A^{T}LA)^{-1}$$
 
 ### 2.3.4 Maximum likelihood for the Gaussian
 This part we only show the result:
+
 $$\mu_{ML}=\frac{1}{N}\sum_{n=1}^N x_n$$
 
 $$\Sigma_{ML}=\frac{1}{N}\sum_{n=1}^N(x_n-\mu_{ML})(x_n-\mu_{ML})^T$$
@@ -210,7 +215,7 @@ The likelihood function of Gaussian distribution:
 
 $$p(x | \mu) = \prod_{n=1}^{N}p(x_{n} | \mu) = \frac{1}{2\pi\sigma^{2}}exp\left\{-\frac{1}{2\sigma^{2}}\sum_{n=1}^{N}(x_{n} - \mu^{2})\right\}$$
 
-Choose $p(\mu)$ as Gaussian distribution: $p(\mu) = N(\mu | \mu_{0},\sigma_{0}^{2})$, and the posterior distribution is given by:
+Choose $p(\mu)$ as Gaussian distribution: $p(\mu) = N(\mu \| \mu_{0},\sigma_{0}^{2})$, and the posterior distribution is given by:
 
 $$p(\mu | x) \propto p(x | \mu)p(\mu)$$
 
@@ -241,7 +246,7 @@ The posterior distribution is given by:
 
 $$p(\lambda | x) \propto \lambda^{a_{0} - 1}\lambda^{\frac{N}{2}}exp\left\{ -b_{0}\lambda - \frac{\lambda}{2}\sum_{n=1}^{N}(x_{n}-\mu)^{2}\right\}$$
 
-Consequently, the posterior distribution will be $Gam(\lambda | a_{N}, b_{N})$, where
+Consequently, the posterior distribution will be $Gam(\lambda \| a_{N}, b_{N})$, where
 
 $$a_{N} = a_{0} + \frac{N}{2}$$
 
@@ -288,8 +293,8 @@ $$p(\eta | \chi, \nu) = f(\chi, \nu)g(\eta)^{\nu}exp(\nu\eta^{T}\chi)$$
 ### 2.4.3 Noninformative priors
 Two simple examples of noninformative priors:
 
-The location parameter: $p(x| \mu) = f(x-\mu)$
+The location parameter: $p(x\| \mu) = f(x-\mu)$
 
-The scale parameter: $p(x | \sigma) = \frac{1}{\sigma}f(\frac{x}{\sigma})$
+The scale parameter: $p(x \| \sigma) = \frac{1}{\sigma}f(\frac{x}{\sigma})$
 
 ## 2.5 Nonparametric Methods
