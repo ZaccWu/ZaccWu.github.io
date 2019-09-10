@@ -25,7 +25,7 @@ $$y(x, w) = \sum_{j=1}^{M-1}w_{j}\phi_{j}(x) = w^{T}\phi(x)$$
 There are many possible choices for the basis functions:
 
 * powers of $x$: $\phi_{j}(x)=x^{j}$
-* Gaussian: $\phi_{j}(x) = exp \{ -\frac{(x-\mu_{j})^{2}}{2s^{2}}\}$
+* Gaussian: $\phi_{j}(x) = exp\{-\frac{(x-\mu_{j})^{2}}{2s^{2}}\}$
 * sigmoid: $\phi_{j}(x) = \sigma\left(\frac{x-\mu_{j}}{s}  \right)$
 * logistic sigmoid: $\sigma_{a} = \frac{1}{1 + exp(-a)}$
 * tanh: $tanh(a) = 2\sigma(2a) - 1$
