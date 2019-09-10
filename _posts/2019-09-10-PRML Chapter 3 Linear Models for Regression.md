@@ -25,7 +25,7 @@ $$y(x, w) = \sum_{j=1}^{M-1}w_{j}\phi_{j}(x) = w^{T}\phi(x)$$
 There are many possible choices for the basis functions:
 
 * powers of $x$: $\phi_{j}(x)=x^{j}$
-* Gaussian: $\phi_{j}(x) = exp \left\{ -\frac{(x-\mu_{j})^{2}}{2s^{2}} \right\}$
+* Gaussian: $\phi_{j}(x) = exp \left\{ -\frac{(x-\mu_{j})^{2}}{2s^{2}} \right \}$
 * sigmoid: $\phi_{j}(x) = \sigma\left(\frac{x-\mu_{j}}{s}  \right)$
 * logistic sigmoid: $\sigma_{a} = \frac{1}{1 + exp(-a)}$
 * tanh: $tanh(a) = 2\sigma(2a) - 1$
@@ -49,7 +49,7 @@ $$p(t|X, w, \beta) = \prod_{n=1}^{N}N(t_{n} | w^{T}\phi(x_{n}), \beta^{-1})$$
 
 $$ln p(t | w, \beta) = \sum_{n=1}^{N} ln N(t_{n} | w^{T}\phi(x_{n}), \beta^{-1})$$
 
-where the sum-of-squares error is $E_{D}(w) = \frac{1}{2}\sum_{n=1}^{N}\{ t_{n} - w^{T}\phi(x_{n}) \}^{2}$.
+where the sum-of-squares error is $E_{D}(w) = \frac{1}{2}\sum_{n=1}^{N} \{ t_{n} - w^{T}\phi(x_{n}) \}^{2}$.
 
 The MLE solution is:
 
@@ -71,13 +71,13 @@ and the $\Phi^{\dag} \equiv (\Phi^{T}\Phi)^{-1}\Phi^{T}$ is known as the Moore-P
 
 If we make the bias parameter explicit, then the error function above becomes:
 
-$$E_{D}(w) = \frac{1}{2}\sum_{n=1}^{N}\{ t_{n} - w_{0} - \sum_{j=1}^{M-1}w_{j}\phi_{j}(x_{n}) \}^{2}$$
+$$E_{D}(w) = \frac{1}{2}\sum_{n=1}^{N} \{ t_{n} - w_{0} - \sum_{j=1}^{M-1}w_{j}\phi_{j}(x_{n}) \}^{2}$$
 
 Setting the derivative with respect to $w_0$ equal to zero, we obtain:
 
 $$w_{0} = \bar{t} - \sum_{j=1}^{M-1}w_{j}\bar{\phi}_{j}$$
 
-where $\bar{t} = \frac{1}{N}\sum_{n=1}^{N}t_{n}~~,~~~~~\bar{\phi}_{j} = \frac{1}{N}\sum_{n=1}^{N}\phi_{j}(x_{n})$, thus the bias $w_0$ compensates for the difference between the averages of the target values and the weighted sum of the averages of the basis function values.
+where $\bar{t} = \frac{1}{N}\sum_{n=1}^{N}t_{n},\ \bar{\phi}_{j} = \frac{1}{N}\sum_{n=1}^{N}\phi_{j}(x_{n})$, thus the bias $w_0$ compensates for the difference between the averages of the target values and the weighted sum of the averages of the basis function values.
 
 Also we can get the MLE solution of precision parameter.
 
@@ -108,7 +108,7 @@ For multiple target variables, use the same set of basis functions to model all 
 
 $$y(x,w) = W^{T}\phi(x)$$
 
-Suppose the conditional distribution of the target vector is isotropic Gaussian: $p(t | x, W, \beta) = N(t | W^{T}\phi(x), \beta^{-1}I)$, we can get the MLE solution:
+Suppose the conditional distribution of the target vector is isotropic Gaussian: $p(t \| x, W, \beta) = N(t \| W^{T}\phi(x), \beta^{-1}I)$, we can get the MLE solution:
 
 $$W_{ML} = (\Phi^{T}\Phi)^{-1}\Phi^{T}T$$
 
@@ -247,6 +247,7 @@ It then follows that $A$ has eigenvalues $\alpha+\lambda_i$. Now consider the de
 $$\frac{d}{d\alpha}\ln|A| = \frac{d}{d\alpha}\ln\prod_{i}(\lambda_{i} + \alpha) = \frac{d}{d\alpha}\sum_{i}\ln(\lambda_{i} + \alpha) = \sum_{i}\frac{1}{\lambda_{i} + \alpha}$$
 
 Let the derivative be zero, we will have:
+
 $$\alpha m_{N}^{T}m_{N} = M - \alpha\sum_{i}\frac{1}{\lambda_{i} + \alpha} = \gamma$$   
 
 So it is easy to get that
