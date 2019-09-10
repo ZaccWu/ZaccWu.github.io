@@ -23,7 +23,7 @@ $$E(w) = \frac{1}{2}\sum_{n=1}^{N}\{y(x_{n},w) - t_{n}\}^{2}$$
 
 To avoid the coefficients reaching a huge value, regularization is what we need. By adding the penalty term, we can avoid overfitting:
 
-$$\hat{E}(w) = \frac{1}{2}\sum_{n=1}^{N}{y(x_{n},w) - t_{n}}^{2} + \frac{\lambda}{2} ||w||^{2}$$
+$$\hat{E}(w) = \frac{1}{2}\sum_{n=1}^{N}\{y(x_{n},w) - t_{n}\}^{2} + \frac{\lambda}{2} ||w||^{2}$$
 
 Where:
 $$||w||^{2} = w^{T}w = w_{0}^2 + w_{1}^{2} + \dots + w_{M}^{2}$$
