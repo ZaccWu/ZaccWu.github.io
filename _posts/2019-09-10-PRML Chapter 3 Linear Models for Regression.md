@@ -25,7 +25,7 @@ $$y(x, w) = \sum_{j=1}^{M-1}w_{j}\phi_{j}(x) = w^{T}\phi(x)$$
 There are many possible choices for the basis functions:
 
 * powers of $x$: $\phi_{j}(x)=x^{j}$
-* Gaussian: $\phi_{j}(x) = exp \left\{ -\frac{(x-\mu_{j})^{2}}{2s^{2}} \right \}$
+* Gaussian: $\phi_{j}(x) = exp \{ -\frac{(x-\mu_{j})^{2}}{2s^{2}}\}$
 * sigmoid: $\phi_{j}(x) = \sigma\left(\frac{x-\mu_{j}}{s}  \right)$
 * logistic sigmoid: $\sigma_{a} = \frac{1}{1 + exp(-a)}$
 * tanh: $tanh(a) = 2\sigma(2a) - 1$
@@ -229,6 +229,7 @@ $$p(t | \mathbf{t}) \simeq p(t | \mathbf{t}, \hat{\alpha}, \hat{\beta}) = \int p
 From Bayes' theorem, the posterior distribution for $\alpha$ and $\beta$ is given by:
 
 $$p(\alpha, \beta | \mathbf{t}) \propto p(\mathbf{t} | \alpha, \beta)p(\alpha, \beta)$$
+
 ### 3.5.1 Evaluation of the evidence function
 The marginal likelihood function $p(\mathbf{t} \| \alpha, \beta)$ is obtained by integrating over the weight parameters $w$, so that
 
@@ -237,6 +238,7 @@ $$p(\mathbf{t} | \alpha, \beta) = \int p(\mathbf{t} | w, \beta)p(w| \alpha) dw$$
 By completing the square in the exponent and making use of the standard form for the normalization coefficient of a Gaussian, we can get the log of the marginal likelihood in the form:
 
 $$\ln p(\mathbf{t} | \alpha, \beta) = \frac{M}{2}\ln\alpha + \frac{N}{2}\ln\beta - E(m_{N}) - \frac{1}{2}\ln|A| - \frac{N}{2}\ln(2\pi)$$
+
 ### 3.5.2 Maximizing the evidence function
 Defining the eigenvector equation
 
@@ -257,6 +259,7 @@ $$\gamma = \sum_{i} \frac{\lambda_{i}}{\alpha + \lambda_{i}}\ \ and\ \ \alpha = 
 As for $\beta$, we can follow the same idea to get
 
 $$\frac{1}{\beta} = \frac{1}{N-\gamma}\sum_{n=1}^{N}\{ t_{n}-m_{N}^PT \phi(x_{n})\}$$
+
 ### 3.5.3 Effective number of parameters
 When the number of data points is far more larger than parameters, it will be easy to compute that:
 
