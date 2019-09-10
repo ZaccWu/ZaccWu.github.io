@@ -4,7 +4,7 @@ title:      PRML Chapter 3 Linear Models for Regression               # 标题
 subtitle:    #副标题
 date:       2019-09-10             # 时间
 author:     WZY                      # 作者
-header-img: img/vis1.jpg    #这篇文章标题背景图片
+header-img: img/vis1.png    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 mathjax: true
 tags:                               #标签
