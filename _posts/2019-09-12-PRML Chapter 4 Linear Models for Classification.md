@@ -153,13 +153,13 @@ For the problem of two classes, the posterior probability for class one can be:
 
 $$p(C_{1} | x) = \sigma(a)$$
 
-where $a = \ln\frac{p(x|C_{1})p(C_{1})}{p(x|C_{2})p(C_{2})}$ and $\sigma(a) = \frac{1}{1 + \exp(-1)}$ (logistic sigmoid).
+where $a = \ln\frac{p(x\|C_{1})p(C_{1})}{p(x\|C_{2})p(C_{2})}$ and $\sigma(a) = \frac{1}{1 + \exp(-1)}$ (logistic sigmoid).
 
 For the case of K>2, we have:
 
 $$p(C_{k} | x) = \frac{p(x|C_{k})p(C_{k})}{\sum_{j}p(x|C_{j})p(C_{j})} = \frac{exp(a_{k})}{\sum_{j}\exp(a_{j})}$$
 
-where $a_{k} = \ln p((x | C_{k})p(C_{k}))$ (equals to softmax function).
+where $a_{k} = \ln p((x \| C_{k})p(C_{k}))$ (equals to softmax function).
 
 ### 4.2.1 Continuous inputs
 Assume that the class-conditional densities are Gaussian and all classes share the same covariance matrix. So the density for class $C_k$ is given by:
@@ -284,7 +284,7 @@ $$\nabla_{w_k}\nabla_{w_j}E(w_1,...,w_K)=-\sum_{n=1}^N y_{nj}(I_{kj}-y_{nj})\phi
 ### 4.3.5 Probit regression
 If the value of $\theta$ is drawn from a probability density $p(\theta)$, then the corresponding activation function will be given by the cumulative distribution function:
 
-$$f(a)=\int^a_{-\infin}p(\theta)d\theta$$
+$$f(a)=\int^a_{-\infty}p(\theta)d\theta$$
 
 And we suppose the density is given by a zero mean, unit variance Gaussian:
 
