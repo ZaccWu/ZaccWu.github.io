@@ -69,7 +69,7 @@ $$w^{\tau + 1} = w^{\tau} + \Delta w^{\tau}$$
 ### 5.2.2 Local quadratic approximation
 Consider the Taylor expansion of $E(w)$ around some point $\hat{w}$ in weight space:
 
-$$E(w) \simeq E(\hat{w}) + (w - \hat{w})^{T}b + \frac{1}{2}(w - \hat{w})^{T}H(w - \hat{w})$$x
+$$E(w) \simeq E(\hat{w}) + (w - \hat{w})^{T}b + \frac{1}{2}(w - \hat{w})^{T}H(w - \hat{w})$$
 
 where $b$ is defined to be the gradient of $E$ evaluated at $\hat{w}$: $b \equiv \nabla E\|_{w=\hat{w}}$
 
