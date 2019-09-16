@@ -53,7 +53,7 @@ $$\mu_{k}^{ML} = \frac{m_{k}}{N}$$
 
 Now consider the conditional joint distribution, it is called multinomial distribution (here $\sum_{k=1}^{K}m_{k} = N$):
 
-$$Mult(m_{1}, m_{2}, \dots, m_{K} |\mu, N) = \frac{N!}{m_{1}!m_{2}!\dots m_{K}!}$$
+$$Mult(m_{1}, m_{2}, \dots, m_{K} |\mu, N) = \frac{N!}{m_{1}!m_{2}!\dots m_{K}!} \prop_{k=1}^K \mu_k^{m_k}$$
 
 ### 2.2.1 The Dirichlet Distribution
 The prior distribution of parameter $\mu_k$ is Dirichlet distribution:
