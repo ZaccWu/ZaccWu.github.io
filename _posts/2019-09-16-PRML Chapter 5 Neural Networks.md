@@ -71,7 +71,7 @@ Consider the Taylor expansion of $E(w)$ around some point $\hat{w}$ in weight sp
 
 $$E(w) \simeq E(\hat{w}) + (w - \hat{w})^{T}b + \frac{1}{2}(w - \hat{w})^{T}H(w - \hat{w})$$x
 
-where $b$ is defined to be the gradient of $E$ evaluated at $\hat{w}$: $b \equiv \nabla E|_{w=\hat{w}}$
+where $b$ is defined to be the gradient of $E$ evaluated at $\hat{w}$: $b \equiv \nabla E\|_{w=\hat{w}}$
 
 When $w^*$ is a minimum of the error function, there is no linear term because $\nabla E=0$, we have:
 
@@ -157,7 +157,7 @@ $$H\simeq\sum_{n=1}^N y_n(1-y_n)b_nb_n^T$$
 ## 5.5 Regularization in Neural Networks
 To control the complexity of a neural network, the simplest regularizer is the quadratic, giving a regularized error:
 
-$$\tilde{E}(w)=E(w)+\frac{\lambda}{2} w^Tw$$.
+$$\tilde{E}(w)=E(w)+\frac{\lambda}{2} w^Tw$$
 
 ### 5.5.1 Consistent Gaussian priors
 A regularizer which is invariant under the linear transformations is given by:
