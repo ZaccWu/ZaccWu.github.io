@@ -118,7 +118,7 @@ $$p(x,t)=\frac{1}{N}\sum_{n=1}^N f(x-x_n,t-t_n)$$
 We now find an expression for the regression function $y(x)$, corresponding to the conditional average of the target variable conditioned on the input variable, which is given by:
 
 $$\begin{aligned}
-y(x) &= E[t | x] =\int_{-\infin}^{\infin}tp(t|x)\\
+y(x) &= E[t | x] =\int_{-\infty}^{\infty}tp(t|x)\\
 &=\frac{\int tp(x,t)dt}{\int p(x,t)dt}\\
 &= \frac{\sum_{n}\int t f(x - x_{n}, t - t_{n}) dt} { \sum_{m}\int  f(x - x_{m}, t - t_{m}) dt }
 \end{aligned}$$
