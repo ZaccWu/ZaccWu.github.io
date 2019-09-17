@@ -229,7 +229,7 @@ The required predictive distribution is given by:
 
 $$p(t_{N+1} = 1 | t_{N}) = \int p(t_{N+1} = 1 | a_{N+1})p(a_{N+1} | t_{N}) da_{N+1}$$
 
-where $p(t_{N+1}=1|a_{N+1})=\sigma(a_{N+1})$
+where $p(t_{N+1}=1\|a_{N+1})=\sigma(a_{N+1})$
 
 ### 6.4.6 Laplace approximation
 In order to evaluate the predictive distribution, we seek a Gaussian approximation to the posterior distribution over $a_{N+1}$:
