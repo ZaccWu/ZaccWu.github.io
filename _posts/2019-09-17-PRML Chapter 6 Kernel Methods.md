@@ -20,7 +20,7 @@ Forms of kernel functions:
 
 * linear kernels: $k(x,x')=x^T x$
 * stationary kernels: $k(x,x')=k(x-x')$
-* homogeneous kernels: $k(x,x')=k(||x-x'||)$
+* homogeneous kernels: $k(x,x')=k(\|\|x-x'\|\|)$
 
 ## 6.1 Dual Representations
 Consider a linear regression model whose parameters are determined by minimizing a regularized sum-of-squares error funciton given by:
