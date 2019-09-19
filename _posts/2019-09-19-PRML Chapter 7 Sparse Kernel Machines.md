@@ -2,7 +2,7 @@
 layout:     post                    # 使用的布局（不需要改）
 title:      Chapter 7 Sparse Kernel Machines               # 标题 
 subtitle:   #副标题
-date:       2019-07-11             # 时间
+date:       2019-09-19             # 时间
 author:     WZY                      # 作者
 header-img: img/vis1.png    #这篇文章标题背景图片
 catalog: true                       # 是否归档
