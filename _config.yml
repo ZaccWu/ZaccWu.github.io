@@ -101,12 +101,16 @@ information: [
 # Friends
 friends: [
     {
-        title: "LINEN YU .ZJU",
+        title: "YU LINEN .ZJU",
         href: "https://cestunyu.github.io/"
     },
-#    {
-#        title: "简书",
-#        href: "http://www.jianshu.com/u/xxx"
-#    }
+    {
+        title: "LIU YUANJIAN",
+        href: "https://www.liuyuanjian.com/"
+    },
+    {
+        title: "MAO YUHAO",
+        href: "https://algebraloveme.github.io/"
+    }
 ]
 #
