@@ -8,7 +8,7 @@ header-img: img/vis1.png    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 mathjax: true
 tags:                               #标签
-    - Machine Learning
+    - PRML
 --- 
 
 # PRML Chapter 6 Kernel Methods
