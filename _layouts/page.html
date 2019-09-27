@@ -32,11 +32,6 @@ layout: default
                 col-md-10 col-md-offset-1
                 sidebar-container">
 	    
-		<!-- Visitor count -->
-		<hr>
-                <h5>VISITORS</h5>
-		    <div align="center"><a href="http://www.amazingcounters.com"><img border="0" src="http://cc.amazingcounters.com/counter.php?i=3243758&c=9731587" alt="AmazingCounters.com"></a></div>
-
                 <!-- Featured Tags -->
                 {% if site.featured-tags %}
                 <section>
@@ -86,6 +81,15 @@ layout: default
                 col-xs-12
                 sidebar-container
             ">
+		    
+		<!-- Visitor counts -->
+		{% if true %}
+	    	<section>
+		<hr>
+                <h5>VISITORS</h5>
+		    <div align="center"><a href="http://www.amazingcounters.com"><img border="0" src="http://cc.amazingcounters.com/counter.php?i=3243758&c=9731587" alt="AmazingCounters.com"></a></div>
+	        </section>
+	        {% endif %}
                 <!-- Featured Tags -->
                 {% if site.featured-tags %}
                 <section>
