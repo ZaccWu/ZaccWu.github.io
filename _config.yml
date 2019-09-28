@@ -59,13 +59,21 @@ kramdown:
 # disqus_username: tinky2013
 
 # Gitalk
-gitalk: true
-gitalk_clientID: '035b0b4110249333914a'
-gitalk_Secret: '7e719e0b6475a9231d47535e328352e2062252f6'
-gitalk_repo: 'tinky2013.github.io'
-gitalk_owner: 'tinky2013'
-gitalk_admin: 'tinky2013'
-distractionFreeMode: true
+gitalk:
+  enable: true #用来做启用判断可以不用
+  owner: 'tinky2013' #Github 用户名,
+  repo: 'tinky2013.github.io' #储存评论issue的github仓库名
+  admin: 'tinky2013' #Github 用户名,
+  clientID: '035b0b4110249333914a' #`Github Application clientID`
+  clientSecret: '7e719e0b6475a9231d47535e328352e2062252f6' #`Github Application clientSecret`
+  
+# gitalk: true
+# gitalk_clientID: '035b0b4110249333914a'
+# gitalk_Secret: '7e719e0b6475a9231d47535e328352e2062252f6'
+# gitalk_repo: 'tinky2013.github.io'
+# gitalk_owner: 'tinky2013'
+# gitalk_admin: 'tinky2013'
+# distractionFreeMode: true
 
 
 # Analytics settings
