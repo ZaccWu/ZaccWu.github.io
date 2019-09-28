@@ -87,22 +87,6 @@ layout: default
 			{% include intensedebate-comments.html %}
 		{% endif %}
 		    
-		<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-		<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
-
-		<div id="gitalk-container"></div>     
-		<script type="text/javascript">
-		    var gitalk = new Gitalk({
-		    // gitalk的主要参数
-		      clientID: '035b0b4110249333914a',   //上面获取到的值
-		      clientSecret: '7e719e0b6475a9231d47535e328352e2062252f6',//上面获取到的值
-		      repo: 'tinky2013.github.io',  //您刚才建立仓库的名字
-		      owner: 'tinky2013',   //你的GitHub用户名字
-		      admin: ['tinky2013'],  //你的GitHub用户的名字
-		      id: 'indow.location.pathname', //id不能重复，如果重复就会把其他页面的评论引进来
-			});
-		      gitalk.render('gitalk-container');
-		</script> 
 		    
 		<!--Gitalk评论start  --> 
                 {% if site.gitalk.enable %}
