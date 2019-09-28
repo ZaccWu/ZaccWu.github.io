@@ -64,8 +64,8 @@ gitalk:
   owner: 'tinky2013' #Github 用户名,
   repo: 'tinky2013.github.io' #储存评论issue的github仓库名
   admin: 'tinky2013' #Github 用户名,
-  clientID: '035b0b4110249333914a' #`Github Application clientID`
-  clientSecret: '7e719e0b6475a9231d47535e328352e2062252f6' #`Github Application clientSecret`
+  clientID: 'dbe62285207629cc4e28' #`Github Application clientID`
+  clientSecret: '5c80657ef38351c374a9e76e7410eeb1ca1a7323' #`Github Application clientSecret`
   
 # gitalk: true
 # gitalk_clientID: '035b0b4110249333914a'
