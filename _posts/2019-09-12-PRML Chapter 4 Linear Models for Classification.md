@@ -318,7 +318,7 @@ $$\ln f(z) \simeq \ln f(z_{0}) - \frac{1}{2}(z-z_{0})^{T}A(z-z_{0})$$
 
 where $A = -\nabla\nabla lnf(z)\|_{z=z_0}$. Taking the exponential of both sides we obtain:
 
-$$f(z)  \simeq f(z_{0})\exp \left\{ -frac{1}{2}(z - z_{0})^{T}A(z-z_{0}) \right\}$$
+$$f(z)  \simeq f(z_{0})\exp \left\{ -\frac{1}{2}(z - z_{0})^{T}A(z-z_{0}) \right\}$$
 
 and we know that $q(z)$ is proportional to $f(z)$ so:
 
