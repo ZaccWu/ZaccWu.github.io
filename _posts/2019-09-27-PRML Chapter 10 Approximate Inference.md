@@ -135,7 +135,7 @@ where $\alpha$ has components $\alpha_k$ given by:
 
 $$\alpha_{k} = \alpha_{0} + \sum_{n=1}^{N}r_{nk}$$
 
-Using $q^{*}(\mu_{k}, \Lambda_{k}) q^{*}(\mu_{k} \| \Lambda_{k})q^{*}(\Lambda_{k})$, the posterior distribution is a Gaussian-Wishart distribution and is given by:
+Using $q^* (\mu_{k}, \Lambda_{k}) q^{*}(\mu_{k} \| \Lambda_{k})q^{*}(\Lambda_{k})$, the posterior distribution is a Gaussian-Wishart distribution and is given by:
 
 $$q^{*}(\mu_{k}, \Lambda_{k}) = \mathcal{N}(\mu_{k} | m_{k}, (\beta_{k}\Lambda_{k})^{-1})\mathcal{W}(\Lambda_{k} | W_{k}, \nu_{k})$$
 
