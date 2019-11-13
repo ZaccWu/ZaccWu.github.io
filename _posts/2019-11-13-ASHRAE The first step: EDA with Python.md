@@ -1,8 +1,8 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      判别式模型与生成式模型               # 标题 
-subtitle:   两类基本模型的理解 #副标题
-date:       2019-07-11             # 时间
+title:      ASHRAE The first step: EDA with Python               # 标题 
+subtitle:   Kaggle Competition #副标题
+date:       2019-11-13             # 时间
 author:     WZY                      # 作者
 header-img: img/post-bg-universe.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
