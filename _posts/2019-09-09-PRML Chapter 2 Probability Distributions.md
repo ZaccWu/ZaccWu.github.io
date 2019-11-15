@@ -203,7 +203,7 @@ A more general formulation pair of sequential learning is called Robbins-Monro a
 
 $$f(\theta) = E[z | \theta] = \int zp(z | \theta) dz$$
 
-$f(\theta)$ is called regression functions. Our goal is to find $\theta^*$ that $f(\theta^*)=0$. Suppose we observe values of $z$ and we with to find a corresponding sequential estimation scheme for $\theta^*$. Assume that $
+$f(\theta)$ is called regression functions. Our goal is to find $\theta^* $ that $f(\theta^\*)= $. Suppose we observe values of $z$ and we with to find a corresponding sequential estimation scheme for $\theta^* $. Assume that $
 E[(z-f)^{2}][\theta] < \infty %]]>$, the sequence of successive estimation will be:
 
 $$\theta^{(N)} = \theta^{(N-1)} - \alpha_{N-1}z(\theta^{(N-1)})$$
