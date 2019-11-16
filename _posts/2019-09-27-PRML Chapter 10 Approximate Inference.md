@@ -271,7 +271,7 @@ where:
 
 $$\lambda(\xi) = -\frac{1}{2\xi}\left[ \sigma(\xi) - \frac{1}{2} \right]$$
 
-We cna see how the bounds can be used, suppose we wish to evaluate an integral of the form:
+We can see how the bounds can be used, suppose we wish to evaluate an integral of the form:
 
 $$I = \int \sigma(a)p(a) da$$
 
