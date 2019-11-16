@@ -72,7 +72,7 @@ $$p(X | Z, \mu, \Lambda) = \prod_{n=1}^{N} \prod_{k=1}^{K}\mathcal{N}(x_{n} | \m
 
 Choose a Dirichlet distribution over the mixing coefficients $\pi$:
 
-$$p(\pi) Dir(\pi | \alpha_{0}) C(\alpha_{0})\prod_{k=1}^{K}\pi_{k}^{\alpha_{0} - 1}$$
+$$p(\pi)= Dir(\pi | \alpha_{0})= C(\alpha_{0})\prod_{k=1}^{K}\pi_{k}^{\alpha_{0} - 1}$$
 
 Introduce an independent Gaussian-Wishart prior governing the mean and precision of each Gaussian component, give by:
 
