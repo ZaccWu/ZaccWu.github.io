@@ -146,7 +146,7 @@ $$p(mistake) = p(x \in R_{1},C_{2}) + p(x \in R_{2},C_{1})$$
 
 More generally, for k classes, we can maximize:
 
-$$p(mistake)=\sum_{k=1}^Kp(x\in R_k,C_k)=\sum_{k=1}^K\int_{R_k}p(x,C_k)dx$$
+$$p(correct)=\sum_{k=1}^Kp(x\in R_k,C_k)=\sum_{k=1}^K\int_{R_k}p(x,C_k)dx$$
 
 ### 1.5.2 Minimizing the expected loss
 The uncertainty of real category could be represented by joint distribution $p(x,C_k)$, so we need to minimize the average loss:
