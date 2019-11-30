@@ -88,7 +88,7 @@ var _hmt = _hmt || [];
             <div class="
                 col-lg-3 col-lg-offset-0
                 col-md-3 col-md-offset-0
-                col-sm-12
+                col-sm-3 col-sm-offset-0
                 col-xs-12
                 sidebar-container
             ">
@@ -106,7 +106,7 @@ var _hmt = _hmt || [];
                 <!-- Featured Tags -->
                 {% if site.featured-tags %}
                 <section>
-                    <hr class="hidden-sm hidden-xs">
+                    <hr class="hidden-xs">
                     <h5><a href="{{'/tags/' | prepend: site.baseurl }}">FEATURED TAGS</a></h5>
                     <div class="tags">
                         {% for tag in site.tags %}
@@ -121,7 +121,7 @@ var _hmt = _hmt || [];
                 {% endif %}
 
                 <!-- Short About -->
-                <section class="visible-md visible-lg">
+                <section class="visible-sm visible-md visible-lg">
                     <hr><h5><a href="{{'/about/' | prepend: site.baseurl }}">ABOUT ME</a></h5>
                     <div class="short-about">
 
