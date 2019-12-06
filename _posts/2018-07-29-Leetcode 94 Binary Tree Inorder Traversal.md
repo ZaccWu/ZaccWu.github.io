@@ -2,7 +2,7 @@
 layout:     post                    # 使用的布局（不需要改）
 title:      Leetcode 94               # 标题 
 subtitle:   Binary Tree Inorder Traversal #副标题
-date:       2018-01-29             # 时间
+date:       2018-07-29             # 时间
 author:     WZY                      # 作者
 header-img: img/Leetcode/94.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
