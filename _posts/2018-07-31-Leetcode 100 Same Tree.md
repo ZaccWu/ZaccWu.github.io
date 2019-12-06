@@ -2,7 +2,7 @@
 layout:     post                    # 使用的布局（不需要改）
 title:      Leetcode 100               # 标题 
 subtitle:   Same Tree #副标题
-date:       2018-01-31             # 时间
+date:       2018-07-31             # 时间
 author:     WZY                      # 作者
 header-img: img/Leetcode/100.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
