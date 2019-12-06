@@ -2,7 +2,7 @@
 layout:     post                    # 使用的布局（不需要改）
 title:      Leetcode 104               # 标题 
 subtitle:   Maximum Depth of Binary Tree #副标题
-date:       2018-02-01             # 时间
+date:       2018-07-01             # 时间
 author:     WZY                      # 作者
 header-img: img/Leetcode/104.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
