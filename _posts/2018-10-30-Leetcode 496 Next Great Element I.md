@@ -2,7 +2,7 @@
 layout:     post                    # 使用的布局（不需要改）
 title:      Leetcode 496               # 标题 
 subtitle:   Next Great Element I #副标题
-date:       2018-05-30             # 时间
+date:       2018-10-30             # 时间
 author:     WZY                      # 作者
 header-img: img/Leetcode/496.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
