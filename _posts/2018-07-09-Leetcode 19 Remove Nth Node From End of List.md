@@ -2,7 +2,7 @@
 layout:     post                    # 使用的布局（不需要改）
 title:      Leetcode 19               # 标题 
 subtitle:   Remove Nth Node From End of List #副标题
-date:       2018-01-09             # 时间
+date:       2018-07-09             # 时间
 author:     WZY                      # 作者
 header-img: img/Leetcode/19.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
