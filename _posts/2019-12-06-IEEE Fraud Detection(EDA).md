@@ -602,7 +602,7 @@ plt.show()
 ```
 
 
-![png](output_8_0.png)
+![png](https://github.com/Tinky2013/Kernel-Collection/raw/master/004%20IEEE%20Fraud%20Detection/img/1/output_8_0.png)
 
 
 We can see that this feature represents the time and there's a gap around 30 days between the training set and testing set.
@@ -630,7 +630,7 @@ plt.show()
 ```
 
 
-![png](output_9_0.png)
+![png](https://github.com/Tinky2013/Kernel-Collection/raw/master/004%20IEEE%20Fraud%20Detection/img/1/output_9_0.png)
 
 We can see that the data has obvious amesiality, so we use log function to transform the data, after the transformation we can see that the distribution of data becomes clearer.
 
@@ -647,7 +647,7 @@ plt.show()
 ```
 
 
-![png](output_10_0.png)
+![png](https://github.com/Tinky2013/Kernel-Collection/raw/master/004%20IEEE%20Fraud%20Detection/img/1/output_10_0.png)
 
 **cards 4** and **cards 6** are also categorical features so we do the same process.
 
@@ -672,7 +672,7 @@ ax[3].set_title("card6 isFraud=1",fontsize=14)
 
 
 
-![png](output_11_1.png)
+![png](https://github.com/Tinky2013/Kernel-Collection/raw/master/004%20IEEE%20Fraud%20Detection/img/1/output_11_1.png)
 
 **card 1,2,3,5** are numerical features, so we plot the distributions.
 
@@ -706,7 +706,7 @@ ax[3].set_title("card5")
 
 
 
-![png](output_12_1.png)
+![png](https://github.com/Tinky2013/Kernel-Collection/raw/master/004%20IEEE%20Fraud%20Detection/img/1/output_12_1.png)
 
 We can see that the distributions may show the correlation with fraud or not.
 
@@ -735,7 +735,7 @@ ax[1].set_title('addr2')
 
 
 
-![png](output_13_1.png)
+![png](https://github.com/Tinky2013/Kernel-Collection/raw/master/004%20IEEE%20Fraud%20Detection/img/1/output_13_1.png)
 
 Addr1 is relatively decentralized, but addr2 basically gathering around a particular number, that's weird before we know the actual meaning of the data.
 
@@ -762,7 +762,7 @@ ax[1].set_title('dist2')
 
 
 
-![png](output_14_1.png)
+![png](https://github.com/Tinky2013/Kernel-Collection/raw/master/004%20IEEE%20Fraud%20Detection/img/1/output_14_1.png)
 
 We can see that most of the values for these two characteristics are zero, and there are a few other values lie scattered.
 
@@ -794,11 +794,11 @@ ax[2].set_title("R_emaildomain isFraud==0",fontsize=14)
 
 
 
-![png](output_15_1.png)
+![png](https://github.com/Tinky2013/Kernel-Collection/raw/master/004%20IEEE%20Fraud%20Detection/img/1/output_15_1.png)
 
 
 
-![png](output_15_2.png)
+![png](https://github.com/Tinky2013/Kernel-Collection/raw/master/004%20IEEE%20Fraud%20Detection/img/1/output_15_2.png)
 
 
 ### 3.5 C/D/M/V columns
@@ -815,7 +815,7 @@ plt.show()
 ```
 
 
-![png](output_16_0.png)
+![png](https://github.com/Tinky2013/Kernel-Collection/raw/master/004%20IEEE%20Fraud%20Detection/img/1/output_16_0.png)
 
 
 
@@ -829,7 +829,7 @@ plt.show()
 ```
 
 
-![png](output_17_0.png)
+![png](https://github.com/Tinky2013/Kernel-Collection/raw/master/004%20IEEE%20Fraud%20Detection/img/1/output_17_0.png)
 
 
 
@@ -859,15 +859,15 @@ plt.show()
 ```
 
 
-![png](output_18_0.png)
+![png](https://github.com/Tinky2013/Kernel-Collection/raw/master/004%20IEEE%20Fraud%20Detection/img/1/output_18_0.png)
 
 
 
-![png](output_18_1.png)
+![png](https://github.com/Tinky2013/Kernel-Collection/raw/master/004%20IEEE%20Fraud%20Detection/img/1/output_18_1.png)
 
 
 
-![png](output_18_2.png)
+![png](https://github.com/Tinky2013/Kernel-Collection/raw/master/004%20IEEE%20Fraud%20Detection/img/1/output_18_2.png)
 
 
 
@@ -885,7 +885,7 @@ plt.show()
 ```
 
 
-![png](output_19_0.png)
+![png](https://github.com/Tinky2013/Kernel-Collection/raw/master/004%20IEEE%20Fraud%20Detection/img/1/output_19_0.png)
 
 
 ### 3.6 Device type
@@ -900,7 +900,7 @@ plt.show()
 ```
 
 
-![png](output_20_0.png)
+![png](https://github.com/Tinky2013/Kernel-Collection/raw/master/004%20IEEE%20Fraud%20Detection/img/1/output_20_0.png)
 
 
 
@@ -914,7 +914,7 @@ plt.show()
 ```
 
 
-![png](output_21_0.png)
+![png](https://github.com/Tinky2013/Kernel-Collection/raw/master/004%20IEEE%20Fraud%20Detection/img/1/output_21_0.png)
 
 We can see that the precentage of fraud with different devices may vary a lot. This may contain important information.
 
@@ -938,6 +938,6 @@ sns.heatmap(corrmat,vmax=0.9,square=True)
 
 
 
-![png](output_22_1.png)
+![png](https://github.com/Tinky2013/Kernel-Collection/raw/master/004%20IEEE%20Fraud%20Detection/img/1/output_22_1.png)
 
 We can see that the features in the same types (For example, with same initial) have strong correlation, the features in different types may be not so relevant.
