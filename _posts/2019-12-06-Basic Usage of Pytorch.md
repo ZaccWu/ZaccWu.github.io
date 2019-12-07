@@ -582,5 +582,5 @@ plt.show()
     
 
 
-![png](output_18_2.png)
+![png](https://github.com/Tinky2013/Machine-Learning-Lab/raw/master/img/Pytorch/output_18_2.png)
 
