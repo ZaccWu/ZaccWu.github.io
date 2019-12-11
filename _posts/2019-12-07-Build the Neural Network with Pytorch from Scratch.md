@@ -12,12 +12,13 @@ tags:                               #标签
 
 # Build the Neural Network with Pytorch from Scratch
 
-This article is about the constructing processes of different kinds of neural network. By using the tools in Pytorch, you can build this neural networks and train your data swiftly!
+In this article I summarize the constructing processes of different kinds of neural networks. By using the tools in Pytorch, you can build these neural networks and train your data swiftly!
 
 ```python
 import torch
 import torch.nn as nn
 import torch.utils.data as Data # Abstract class for data set in pytorch
+
 import torchvision
 import matplotlib.pyplot as plt
 from torch.autograd import Variable
@@ -25,7 +26,8 @@ from torch.autograd import Variable
 
 ## 1 CNN
 
-First we import the data, here we use the classic dataset: MNIST.
+First we need to import the data. Here I use the popular dataset in deeplearning: MNIST.
+
 
 ```python
 '''
