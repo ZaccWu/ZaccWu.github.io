@@ -28,13 +28,13 @@ The main problem we will encounter when solving the problem is that the linked l
 
 C Code
 ```c
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     struct ListNode *next;
- * };
- */
+
+// Definition for singly-linked list.
+// struct ListNode {
+//     int val;
+//     struct ListNode *next;
+// };
+
 struct ListNode* removeNthFromEnd(struct ListNode* head, int n) {
     struct ListNode* first=head;
     struct ListNode* second=head;
@@ -58,9 +58,13 @@ The relatively efficient solution with Python has the same ideas with C solution
 Python Code
 ```python
 # Definition for singly-linked list.
+
 # class ListNode(object):
+
 #     def __init__(self, x):
+
 #         self.val = x
+
 #         self.next = None
 
 class Solution(object):
