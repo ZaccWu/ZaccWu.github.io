@@ -118,8 +118,11 @@ class Solution:
 
     def levelOrder(self, root):
         """
+        
         :type root: TreeNode
+        
         :rtype: List[List[int]]
+        
         """
         level, result = 0, list()
         self._levelOrder(level, result, root)
