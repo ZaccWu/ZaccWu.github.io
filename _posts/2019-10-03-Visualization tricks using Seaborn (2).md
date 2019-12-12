@@ -43,6 +43,7 @@ import matplotlib.pyplot as plt
 sns.set(style="white", rc={"axes.facecolor": (0, 0, 0, 0)})
 
 # Create the data
+
 rs = np.random.RandomState(1979)
 x = rs.randn(500)
 g = np.tile(list("ABCDEFGHIJ"), 50)
@@ -51,15 +52,18 @@ m = df.g.map(ord)
 df["x"] += m
 
 # Initialize the FacetGrid object
+
 pal = sns.cubehelix_palette(10, rot=-.25, light=.7)
 g = sns.FacetGrid(df, row="g", hue="g", aspect=15, height=.5, palette=pal)
 
 # Draw the densities in a few steps
+
 g.map(sns.kdeplot, "x", clip_on=False, shade=True, alpha=1, lw=1.5, bw=.2)
 g.map(sns.kdeplot, "x", clip_on=False, color="w", lw=2, bw=.2)
 g.map(plt.axhline, y=0, lw=2, clip_on=False)
 
 # Define and use a simple function to label the plot in axes coordinates
+
 def label(x, color, label):
     ax = plt.gca()
     ax.text(0, .2, label, fontweight="bold", color=color,
@@ -95,14 +99,17 @@ data=pd.DataFrame(data)
 f, ax = plt.subplots(figsize=(11,11))
 sns.despine(bottom=True, left=True)
 # Show each observation with a scatterplot
+
 sns.stripplot(x="value", y="location", hue="type",
               data=data, dodge=True, jitter=True,
               alpha=.25, zorder=1)
 # Show the conditional means
+
 sns.pointplot(x="value", y="location", hue="type",
               data=data, dodge=.532, join=False, palette="dark",
               markers="d", scale=.75, ci=None)
 # Improve the legend 
+
 handles, labels = ax.get_legend_handles_labels()
 ax.legend(handles[3:], labels[3:], title="type",
           handletextpad=0, columnspacing=1,
@@ -120,6 +127,7 @@ import matplotlib.pyplot as plt
 sns.set(style="white")
 
 # Load the example mpg dataset
+
 mpg = sns.load_dataset("mpg")
 
 data={'city':['Ubn']*10+['Rsk']*10+['Pcd']*10+['Grt']*10+['Rbn']*10+['Yml']*10+['Gcr']*10+['Ati']*10,
@@ -137,6 +145,7 @@ data={'city':['Ubn']*10+['Rsk']*10+['Pcd']*10+['Grt']*10+['Rbn']*10+['Yml']*10+[
                   22,21,22,24,30,36,37,38,39,44,46,49,51,54,56,58,62,69,77,86]}
 data=pd.DataFrame(data)
 # Plot miles per gallon against horsepower with other semantics
+
 sns.relplot(x="year", y="ave_eco", hue="city", size="population",
             sizes=(10, 500), alpha=.5, palette="muted",
             height=6, data=data)
@@ -146,7 +155,9 @@ sns.relplot(x="year", y="ave_eco", hue="city", size="population",
 
 ## 18 lineplot for 2C1N time series
 ```python
+
 # prepare the data
+
 import seaborn as sns
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -165,6 +176,7 @@ data={'time':[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,
 data=pd.DataFrame(data)
 
 # Plot
+
 plt.subplots(figsize=(11,11))
 sns.lineplot(x="time", y="value",
              hue="type", style="shape",
@@ -199,10 +211,12 @@ data={'type':['North']*100+['South']*100,
 data=pd.DataFrame(data)
 
 # Define a palette to ensure that colors will be
+
 palette = dict(zip(data.category.unique(),
                    sns.color_palette("rocket_r", 6)))
 
 # Plot the lines on two facets
+
 sns.relplot(x="time", y="rate",
             hue="category", col="type",
             palette=palette,
@@ -215,6 +229,7 @@ sns.relplot(x="time", y="rate",
 ## 20 scatterplot for 1C3N
 ```python
 # prepare the data
+
 import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -230,6 +245,7 @@ data={'size':[1,1.2,1.3,1,1.1,1,1.5,1,1.7,1.7,1.9,1.9,2,2,2.2,2.3,2.5,2.5,2.6,2.
 data=pd.DataFrame(data)
 
 # plot
+
 f, ax = plt.subplots(figsize=(11, 11))
 sns.despine(f, left=True, bottom=True)
 clarity_ranking = ['A','B','C','D','E','F','G']
@@ -254,6 +270,7 @@ rs=np.random.RandomState(10)
 data=rs.normal(size=1000)
 
 # plot
+
 f,axes=plt.subplots(2,2,figsize=(11,11),sharex=True)
 sns.despine(left=True)
 sns.distplot(data,kde=False,color='purple',ax=axes[0,0])
@@ -276,6 +293,7 @@ bins: the number of histgram bar
 ## 22 lmplot for 1C2N-regression
 ```python
 # prepare the data
+
 import pandas as pd
 data={'dataset':['A']*10+['B']*10+['C']*10+['D']*10,
      'x':[1,2,3,4,6,7,5,7,4,7,
@@ -289,10 +307,12 @@ data={'dataset':['A']*10+['B']*10+['C']*10+['D']*10,
 data=pd.DataFrame(data)
 
 # plot
+
 import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set(style="ticks")
 # Show the results of a linear regression within each dataset
+
 sns.lmplot(x="x", y="y", col="dataset", hue="dataset", data=data,
            col_wrap=2, ci=None, palette="muted", height=4,
            scatter_kws={"s": 50, "alpha": 1})
@@ -315,6 +335,7 @@ import matplotlib.pyplot as plt
 sns.set()
 
 # Load the iris dataset
+
 iris = sns.load_dataset("iris")
 data={'species':['A']*10+['B']*10+['C']*10+['D']*10,
      'x':[13,14,16,18,19,22,23,25,26,27,9,11,11,14,14,15,16,17,19,20,
@@ -340,6 +361,7 @@ import matplotlib.pyplot as plt
 sns.set(style="ticks")
 
 # Create a dataset with many short random walks
+
 data={'step':[1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,
              1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,
              1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,
@@ -355,9 +377,11 @@ data={'step':[1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,
 data=pd.DataFrame(data)
 
 # Initialize a grid of plots with an Axes for each walk
+
 grid = sns.FacetGrid(data, col="category", hue="step", palette="tab20c",
                      col_wrap=4, height=1.5)
 # Draw a line plot to show the trajectory of each random walk
+
 grid.map(plt.plot, "step", "position", marker="o")
 grid.set(xlim=(-.5, 5.5), ylim=(1, 7))
 grid.fig.tight_layout(w_pad=1)
@@ -375,11 +399,14 @@ sns.set(style="dark")
 rs = np.random.RandomState(50)
 f, axes = plt.subplots(4, 4, figsize=(12, 12), sharex=True, sharey=True)
 # Rotate the starting point around the cubehelix hue circle
+
 for ax, s in zip(axes.flat, np.linspace(0, 3, 16)):
 
     # Create a cubehelix colormap to use with kdeplot
+    
     cmap = sns.cubehelix_palette(start=s, light=1, as_cmap=True)
     # Generate and plot a random bivariate dataset
+    
     x, y = rs.randn(2, 50)
     sns.kdeplot(x, y, cmap=cmap, shade=True, cut=10, ax=ax)
     ax.set(xlim=(-3, 3), ylim=(-3, 3))
