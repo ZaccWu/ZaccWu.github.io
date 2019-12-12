@@ -58,6 +58,7 @@ We need to check out the missing value in the new dataset.
 
 ```python
 # check the missing values
+
 data_na=(train.isnull().sum()/len(train))*100
 missing_data=pd.DataFrame({'MissingRatio':data_na})
 ```
@@ -526,6 +527,7 @@ Then we check the target value.
 
 ```python
 # target value
+
 train.isFraud.value_counts()
 ```
 
@@ -543,6 +545,7 @@ As we can see, this dataset is unbalanced. Although we are dealing with a binary
 ```python
 '''
 # Just for data checking
+
 for col in train.columns:
     def check(mit):
         print(mit.value_counts())
@@ -592,6 +595,7 @@ We need to do some 'Artisitic Work' in this section, first let's find out the di
 ```python
 # data visualization
 # TransactionDT
+
 plt.figure(figsize=(18,10))
 plt.title('Distribution of TransactionDT')
 sns.distplot(train.TransactionDT,color='red',kde=True,label='train')
@@ -611,6 +615,7 @@ Then we visualize the distribution of TransactionAmt, we also plot the distribut
 
 ```python
 # TransactionAmt & log-TransactionAmt
+
 plt.figure(figsize=(18,10))
 plt.suptitle('Distribution of TransactionAmt')
 plt.subplot(221)
@@ -640,6 +645,7 @@ We can see that the data has obvious amesiality, so we use log function to trans
 
 ```python
 # product CD
+
 fig,ax=plt.subplots(1,1,figsize=(11,11))
 sns.countplot(x="ProductCD", ax=ax, hue = "isFraud", data=train)
 ax.set_title('ProductCD train', fontsize=14)
@@ -653,6 +659,7 @@ plt.show()
 
 ```python
 # cards 4 & 6
+
 fig,ax=plt.subplots(1,4,figsize=(26,8))
 sns.countplot(x="card4",ax=ax[0],data=train.loc[train['isFraud']==0])
 ax[0].set_title("card4 isFraud=0",fontsize=14)
@@ -678,6 +685,7 @@ ax[3].set_title("card6 isFraud=1",fontsize=14)
 
 ```python
 # card 1,2,3,5
+
 fig,ax=plt.subplots(1,4,figsize=(26,8))
 sns.distplot(train.loc[train['isFraud']==0]['card1'],bins=50,ax=ax[0],label='isFraud==0')
 sns.distplot(train.loc[train['isFraud']==1]['card1'],bins=50,ax=ax[0],label='isFraud==1')
@@ -716,6 +724,7 @@ Let see the order columns in the data set.
 
 ```python
 # addr1/2
+
 fig,ax=plt.subplots(2,1,figsize=(16,12))
 sns.distplot(train.loc[train['isFraud']==0]['addr1'],ax=ax[0],bins=200,label='isFraud==0')
 sns.distplot(train.loc[train['isFraud']==1]['addr1'],ax=ax[0],bins=200,label='isFraud==1')
@@ -743,6 +752,7 @@ What about the **dist** features?
 
 ```python
 # dist1/2
+
 fig,ax=plt.subplots(2,1,figsize=(16,12))
 sns.distplot(train.loc[train['isFraud']==0]['dist1'],ax=ax[0],bins=200,label='isFraud==0')
 sns.distplot(train.loc[train['isFraud']==1]['dist1'],ax=ax[0],bins=200,label='isFraud==1')
@@ -770,6 +780,7 @@ We can see that most of the values for these two characteristics are zero, and t
 
 ```python
 # email
+
 fig,ax=plt.subplots(1,3,figsize=(26,10))
 sns.countplot(y="P_emaildomain",ax=ax[0],data=train)
 ax[0].set_title("P_emaildomain",fontsize=14)
@@ -807,6 +818,7 @@ These features are numerous in the dataset, up to hundreds. However, we can not 
 
 ```python
 # C columns
+
 c_cols = [c for c in train if c[0] == 'C']
 sampled_train = pd.concat([train.loc[train['isFraud'] == 0].sample(1000),
           train.loc[train['isFraud'] == 1].sample(1000)])
@@ -821,6 +833,7 @@ plt.show()
 
 ```python
 # D columns
+
 d_cols = [c for c in train if c[0] == 'D']
 sampled_train = pd.concat([train.loc[train['isFraud'] == 0].sample(1000),
           train.loc[train['isFraud'] == 1].sample(1000)])
@@ -892,6 +905,7 @@ plt.show()
 
 ```python
 # device type
+
 train.groupby('DeviceType') \
     .mean()['isFraud'] \
     .sort_values() \
@@ -906,6 +920,7 @@ plt.show()
 
 ```python
 # device info
+
 train.groupby('DeviceInfo') \
     .mean()['isFraud']\
     .sort_values()\
