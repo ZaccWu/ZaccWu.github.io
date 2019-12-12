@@ -46,6 +46,7 @@ building=pd.read_csv(PATH+'building_metadata.csv')
 
 ```python
 # merge the data
+
 train = train.merge(building, on='building_id', how='left')
 test = test.merge(building, on='building_id', how='left')
 train = train.merge(weather_train, on=['site_id', 'timestamp'], how='left')
@@ -65,6 +66,7 @@ Before we start, let's check the missing ratio of each column:
 
 ```python
 # check whether there are missing values
+
 data_na=(train.isnull().sum()/len(train))*100
 data_na=data_na.drop(data_na[data_na==0].index).sort_values(ascending=False)
 missing_data=pd.DataFrame({'MissingRatio':data_na})
@@ -115,6 +117,7 @@ We can save the store memory by transforming some of the data types.
 
 ```python
 # Saving the memory space
+
 data_types = {'building_id': np.int16,
           'meter': np.int8,
           'site_id': np.int8,
@@ -450,6 +453,7 @@ First of all, we will observe the change of data from a monthly perspective. Spe
 
 ```python
 # We can see it by month
+
 fig, axes = plt.subplots(8,2,figsize=(15, 30))
 color_dic={'red':0,'blue':1,'orange':2,'purple':3}
 for i in range(0,15):    
@@ -470,6 +474,7 @@ We can also observe the data from a weekly perspective:
 
 ```python
 # We can also see it by week
+
 fig, axes = plt.subplots(8,2,figsize=(15, 30))
 color_dic={'red':0,'blue':1,'orange':2,'purple':3}
 for i in range(0,15):    
@@ -490,6 +495,7 @@ And what about from a daily perspective?
 
 ```python
 # By day
+
 fig, axes = plt.subplots(8,2,figsize=(15, 30))
 color_dic={'red':0,'blue':1,'orange':2,'purple':3}
 for i in range(0,15):    
@@ -508,6 +514,7 @@ We can also further separate the data by hours:
 
 ```python
 # By hour
+
 fig, axes = plt.subplots(8,2,figsize=(15, 30))
 color_dic={'red':0,'blue':1,'orange':2,'purple':3}
 for i in range(0,15):    
@@ -529,6 +536,7 @@ The weather condition may also have connections with the energy consumption, we 
 
 ```python
 # the weather condition(by day)
+
 fig, axes = plt.subplots(figsize=(20,8))
 axes1=axes.twinx()
 train[['timestamp', 'meter_reading']].set_index('timestamp').resample('D').mean()['meter_reading'].plot(ax=axes1,alpha=0.9, label='meter_reading', color='green')
@@ -551,6 +559,7 @@ We can see the cloud condition.
 
 ```python
 # the cloud condition(by day)
+
 fig, axes = plt.subplots(figsize=(20,8))
 axes1=axes.twinx()
 train[['timestamp', 'meter_reading']].set_index('timestamp').resample('D').mean()['meter_reading'].plot(ax=axes1,alpha=0.9, label='meter_reading', color='green')
@@ -572,6 +581,7 @@ We can see the wind condition, too.
 
 ```python
 # the wind condition(by day)
+
 fig, axes = plt.subplots(figsize=(20,8))
 axes1=axes.twinx()
 train[['timestamp', 'meter_reading']].set_index('timestamp').resample('D').mean()['meter_reading'].plot(ax=axes1,alpha=0.9, label='meter_reading', color='green')
