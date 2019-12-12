@@ -25,14 +25,14 @@ There's also one important thing that we need to consider, if the tree's leftchi
 
 C Code
 ```c
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     struct TreeNode *left;
- *     struct TreeNode *right;
- * };
- */
+
+// Definition for a binary tree node.
+// struct TreeNode {
+//     int val;
+//     struct TreeNode *left;
+//     struct TreeNode *right;
+// };
+
 
 
 int minDepth(struct TreeNode* root){
@@ -54,14 +54,20 @@ In BFS solution, 'deque' module will be really power. 'deque' means double-ended
 Python Code
 ```python
 # Definition for a binary tree node.
+
 # class TreeNode(object):
+
 #     def __init__(self, x):
+
 #         self.val = x
+
 #         self.left = None
+
 #         self.right = None
 
 class Solution(object):
 #DFS
+
     def minDepth(self, root):
         """
         :type root: TreeNode
@@ -74,6 +80,7 @@ class Solution(object):
         else:
             return min(self.minDepth(root.left), self.minDepth(root.right)) + 1
 #BFS      
+
     def minDepth1(self, root):
         if not root:
             return 0
