@@ -41,6 +41,7 @@ g.set_ylabels("pay_rate")
 ## 02 barplot for 1C3N
 ```python
 # prepare the data
+
 import pandas as pd
 data={'type':['A','B','C','D','E','F','G','H','I','J'],
      'fare':[34,24,55,35,34,55,12,34,44,56],
@@ -48,6 +49,7 @@ data={'type':['A','B','C','D','E','F','G','H','I','J'],
 data=pd.DataFrame(data)
 
 # plot
+
 import seaborn as sns
 import matplotlib.pyplot as plt
 sns.set(style="white", context="talk")
@@ -268,20 +270,26 @@ import matplotlib.pyplot as plt
 sns.set(style="white")
 
 # Generate a large random dataset
+
 rs = np.random.RandomState(33)
 d = pd.DataFrame(data=rs.normal(size=(100, 26)),
                  columns=list(ascii_letters[26:]))
 
 # Compute the correlation matrix
+
 corr = d.corr()
 # Generate a mask for the upper triangle
+
 mask = np.zeros_like(corr, dtype=np.bool)
 mask[np.triu_indices_from(mask)] = True
 # Set up the matplotlib figure
+
 f, ax = plt.subplots(figsize=(11, 9))
 # Generate a custom diverging colormap
+
 cmap = sns.diverging_palette(220, 10, as_cmap=True)
 # Draw the heatmap with the mask and correct aspect ratio
+
 sns.heatmap(corr, mask=mask, cmap=cmap, vmax=.3, center=0,
             square=True, linewidths=.5, cbar_kws={"shrink": .5})
 ```
@@ -297,6 +305,7 @@ import seaborn as sns
 sns.set()
 
 # Load the example flights dataset and conver to long-form
+
 flights_long = sns.load_dataset("flights")
 data={'year':['2008']*12+['2009']*12+['2010']*12+['2011']*12+['2012']*12+['2013']*12
             +['2014']*12+['2015']*12+['2016']*12+['2017']*12+['2018']*12+['2019']*12,
@@ -348,6 +357,7 @@ import matplotlib.pyplot as plt
 sns.set(style="white")
 
 # Generate a random correlated bivariate dataset
+
 rs = np.random.RandomState(5)
 mean = [0, 0]
 cov = [(1, .5), (.5, 1)]
@@ -356,6 +366,7 @@ x1 = pd.Series(x1, name="$X_1$")
 x2 = pd.Series(x2, name="$X_2$")
 
 # Show the joint distribution using kernel density estimation
+
 g = sns.jointplot(x1, x2, kind="kde", height=7, space=0)
 ```
 
