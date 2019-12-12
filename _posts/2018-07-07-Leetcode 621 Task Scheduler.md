@@ -92,7 +92,9 @@ Here's another way to solve the problem, this time, we can use Python standard l
 class Solution(object):
   def leastInterval(self, tasks, n):
       d = collections.Counter(tasks) # Counter will count the frequency of all of the letters
+      
       counts = d.values()            # Extract the value of the dictionary
+      
       longest = max(counts)
       ans = (longest - 1) * (n + 1)
       for count in counts:
