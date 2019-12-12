@@ -24,16 +24,16 @@ If the gap is larger than 1, than the function will return -1.
 
 C Code
 ```c
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     struct TreeNode *left;
- *     struct TreeNode *right;
- * };
- */
+
+// Definition for a binary tree node.
+// struct TreeNode {
+//     int val;
+//     struct TreeNode *left;
+//     struct TreeNode *right;
+// };
 
 #define MAX(a,b) ((a>b)?a:b)
+
 int Balanced(struct TreeNode* root) {
     int left, right, diff;
     if (root==NULL) return 0;
