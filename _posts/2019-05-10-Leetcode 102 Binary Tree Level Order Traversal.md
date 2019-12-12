@@ -25,7 +25,7 @@ To make the process more clear, I used 'TreeDepth' function to calculate the dep
 
 C Code
 ```c
-/**
+/*
 
  * Definition for a binary tree node.
  
@@ -41,7 +41,7 @@ C Code
  
  */
 
-/**
+/*
 
  * Return an array of arrays of size *returnSize.
  
