@@ -26,19 +26,23 @@ To make the process more clear, I used 'TreeDepth' function to calculate the dep
 C Code
 ```c
 /*
+
  * Definition for a binary tree node.
  * struct TreeNode {
  *     int val;
  *     struct TreeNode *left;
  *     struct TreeNode *right;
  * };
- */
+ 
+*/
  
 /*
+
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
  * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().
- */
+ 
+*/
 
 
 /* First we need to figure out the depth of the Binary Tree */
