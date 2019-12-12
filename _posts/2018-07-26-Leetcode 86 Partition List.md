@@ -22,13 +22,13 @@ It will be hard to operate on the original linked list, so we may create new lin
 
 C Code
 ```c
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     struct ListNode *next;
- * };
- */
+
+// Definition for singly-linked list.
+// struct ListNode {
+//     int val;
+//     struct ListNode *next;
+// };
+
 struct ListNode* partition(struct ListNode* head, int x) {
     struct ListNode left,right;
     struct ListNode *left_cursor,*right_cursor;
@@ -61,9 +61,13 @@ Python is similar to C in implementing linked list operations. Here's the refere
 Python Code
 ```python
 # Definition for singly-linked list.
+
 # class ListNode(object):
+
 #     def __init__(self, x):
+
 #         self.val = x
+
 #         self.next = None
 
 class Solution(object):
