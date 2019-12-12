@@ -22,14 +22,13 @@ To solve the problem, I create another function that can operate two nodes at th
 
 C Code
 ```c
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     struct TreeNode *left;
- *     struct TreeNode *right;
- * };
- */
+// Definition for a binary tree node.
+// struct TreeNode {
+//     int val;
+//     struct TreeNode *left;
+//     struct TreeNode *right;
+// };
+
 bool checknode(struct TreeNode* left,struct TreeNode* right){
     if(left==NULL && right==NULL) return true;
     if((left!=NULL && right==NULL)||(left==NULL && right!=NULL)) return false;
@@ -48,10 +47,15 @@ The Python solution uses the same idea but it is somehow more concise.
 Python Code
 ```python
 # Definition for a binary tree node.
+
 # class TreeNode:
+
 #     def __init__(self, x):
+
 #         self.val = x
+
 #         self.left = None
+
 #         self.right = None
 
 class Solution(object):
