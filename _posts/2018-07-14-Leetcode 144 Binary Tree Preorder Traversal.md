@@ -19,18 +19,17 @@ The C implementation of the problem is as follow, here I use stack to store the 
 
 C Code
 ```c
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     struct TreeNode *left;
- *     struct TreeNode *right;
- * };
- */
-/**
- * Return an array of size *returnSize.
- * Note: The returned array must be malloced, assume caller calls free().
- */
+
+// Definition for a binary tree node.
+// struct TreeNode {
+//     int val;
+//     struct TreeNode *left;
+//     struct TreeNode *right;
+// };
+
+// Return an array of size *returnSize.
+// Note: The returned array must be malloced, assume caller calls free().
+
 int* preorderTraversal(struct TreeNode* root, int* returnSize) {
    
     int *result;
@@ -72,14 +71,20 @@ The iterative solution also uses stack's idea. In every subtree, we first pop th
 Python Code
 ```python
 # Definition for a binary tree node.
+
 # class TreeNode(object):
+
 #     def __init__(self, x):
+
 #         self.val = x
+
 #         self.left = None
+
 #         self.right = None
 
 class Solution(object):
     # recursively
+    
     def recur(self, root, res):
         if root:
             res.append(root.val)
@@ -96,6 +101,7 @@ class Solution(object):
         return res
         
     # iteratively
+    
     def preorderTraversal(self, root):
         stack, res = [root], []
         while stack:
