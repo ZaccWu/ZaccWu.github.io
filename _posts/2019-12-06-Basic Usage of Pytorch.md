@@ -56,6 +56,7 @@ Basic operations may include the followings:
 ```python
 # Operations
 # abs
+
 data = [-1, -2, 1, 2]
 tensor = torch.FloatTensor(data)
 print(
@@ -74,6 +75,7 @@ print(
 
 ```python
 # sin
+
 print(
     '\nsin',
     '\nnumpy: ', np.sin(data),
@@ -90,6 +92,7 @@ print(
 
 ```python
 # mean
+
 print(
     '\nmean',
     '\nnumpy: ', np.mean(data),
@@ -106,6 +109,7 @@ print(
 
 ```python
 # matrix multiplication
+
 data = [[1,2], [3,4]]
 tensor = torch.FloatTensor(data)
 print(
@@ -138,7 +142,9 @@ print(tensor)
 print(variable)
 
 t_out = torch.mean(tensor*tensor)       # x^2
+
 v_out = torch.mean(variable*variable)   # x^2
+
 print(t_out)
 print(v_out)
 ```
@@ -205,8 +211,11 @@ To test this module, we create a representative dataset.
 Regression
 '''
 # Create dataset
+
 x = torch.unsqueeze(torch.linspace(-1, 1, 100), dim=1)  # x data (tensor), shape=(100, 1)
+
 y = x.pow(2) + 0.2*torch.rand(x.size())                 # noisy y data (tensor), shape=(100, 1)
+
 plt.scatter(x.data.numpy(), y.data.numpy())
 plt.show()
 ```
@@ -218,6 +227,7 @@ Here's what the datasets look like. Now we create a basic Nerual Network.
 
 ```python
 # Create NN
+
 class Net(torch.nn.Module):
     def __init__(self, n_feature, n_hidden, n_output):
         super(Net, self).__init__()     # inherit  __init__ function
@@ -227,8 +237,11 @@ class Net(torch.nn.Module):
 
     def forward(self, x):
         # Forward propagation of the input value, neural network analysis of the output value
+        
         x = torch.relu(self.hidden(x))      # activation function
+        
         x = self.predict(x)             # output value
+        
         return x
 
 net = Net(n_feature=1, n_hidden=10, n_output=1)
@@ -246,22 +259,28 @@ We can see the structure of our neural network. The training process includes: C
 
 ```python
 # train the net
+
 optimizer = torch.optim.SGD(net.parameters(), lr=0.2)
 loss_func = torch.nn.MSELoss()
 
 for t in range(100):
     prediction = net(x) # Calling the network
+    
     loss = loss_func(prediction, y) # loss function
 
     optimizer.zero_grad()   # Clear the remaining update parameter values from the previous step
+    
     loss.backward(retain_graph=True)         # Error back propagation and calculation of parameter update value
+    
     optimizer.step()        # Renew the parameter
+    
 ```
 
 ### 4.3 Visualization
 
 ```python
 # Visualize the training process
+
 import matplotlib.pyplot as plt
 plt.ion()
 plt.show()
@@ -320,6 +339,7 @@ x1=torch.normal(-2*n_data,1)
 y1=torch.ones(100)
 
 # Combine the data
+
 x=torch.cat((x0,x1),0).type(torch.FloatTensor)
 y=torch.cat((y0,y1),).type(torch.LongTensor)
 
@@ -410,6 +430,7 @@ The modules are integrated well in pytorch so we can build the neural network sw
 Build a NN swiftly
 '''
 # The older one
+
 class Net(torch.nn.Module):
     def __init__(self,n_feature,n_hidden,n_output):
         super(Net,self).__init__()
@@ -423,6 +444,7 @@ class Net(torch.nn.Module):
 net1=Net(1,10,1)
 
 # The concise one
+
 net2=torch.nn.Sequential(
     torch.nn.Linear(1,10),
     torch.nn.ReLU(),
@@ -461,11 +483,16 @@ y=torch.linspace(10,1,10)
 torch_dataset = Data.TensorDataset(x,y)
 
 # put the dataset into DataLoader
+
 loader=Data.DataLoader(
     dataset=torch_dataset,  # torch TensorDataset format
+    
     batch_size=BATCH_SIZE,  # mini batch size
+    
     shuffle=True,           # whether disorganize the data
+    
     num_workers=2,          # multithreading
+    
 )
 
 for epoch in range(3):
@@ -501,7 +528,9 @@ In this section we create different types of optimizers, including SGD, momentum
 Optimizer
 '''
 # Prepare the data
+
 torch.manual_seed(1)    # reproducible
+
 LR = 0.01
 BATCH_SIZE = 32
 EPOCH = 12
@@ -509,9 +538,11 @@ EPOCH = 12
 x = torch.unsqueeze(torch.linspace(-1, 1, 1000), dim=1)
 y = x.pow(2) + 0.1*torch.normal(torch.zeros(*x.size()))
 # plot dataset
+
 plt.scatter(x.numpy(), y.numpy())
 plt.show()
 # Using data loader
+
 torch_dataset = Data.TensorDataset(x, y)
 loader = Data.DataLoader(dataset=torch_dataset, batch_size=BATCH_SIZE, shuffle=True, num_workers=2,)
 
@@ -532,6 +563,7 @@ net_Adam=Net()
 nets=[net_SGD,net_Momentum,net_RMSprop,net_Adam]
 
 # different optimizers
+
 opt_SGD=torch.optim.SGD(net_SGD.parameters(),lr=LR)
 opt_Momentum=torch.optim.SGD(net_Momentum.parameters(),lr=LR,momentum=0.8)
 opt_RMSprop=torch.optim.RMSprop(net_RMSprop.parameters(),lr=LR,alpha=0.9)
@@ -542,6 +574,7 @@ loss_func=torch.nn.MSELoss()
 losses_his=[[],[],[],[]]
 
 # training and plot
+
 for epoch in range(EPOCH):
     print('Epoch: ',epoch)
     for step, (b_x, b_y) in enumerate(loader):
@@ -549,8 +582,11 @@ for epoch in range(EPOCH):
             output=net(b_x)
             loss=loss_func(output,b_y)
             opt.zero_grad()     # clear gradients for next train
+            
             loss.backward()     # backpropagation, compute gradients
+            
             opt.step()          # apply gradients
+            
             l_his.append(loss.data.numpy())
 
 labels=['SGD','Momentum','RMSprop','Adam']
