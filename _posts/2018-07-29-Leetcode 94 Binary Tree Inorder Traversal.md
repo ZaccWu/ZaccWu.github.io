@@ -21,14 +21,14 @@ It's not intuitively obvious what the code does, so I will try to add more detai
 
 C Code
 ```c
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     struct TreeNode *left;
- *     struct TreeNode *right;
- * };
- */
+
+// Definition for a binary tree node.
+// struct TreeNode {
+//     int val;
+//     struct TreeNode *left;
+//     struct TreeNode *right;
+// };
+
 
 
 /**
@@ -73,14 +73,20 @@ We have two ways to achieve it: recursively and iteratively.
 Python Code
 ```python
 # Definition for a binary tree node.
+
 # class TreeNode(object):
+
 #     def __init__(self, x):
+
 #         self.val = x
+
 #         self.left = None
+
 #         self.right = None
 
 class Solution(object):
     # recursively
+    
     def inorderTraversal_1(self, root):
         res = []
         self.helper(root, res)
@@ -93,7 +99,9 @@ class Solution(object):
             self.helper(root.right, res)
 
     # iteratively 
+    
     # the idea of this way is similar with the implementation using C above.
+    
     def inorderTraversal_2(self, root):
         res, stack = [], []
         while True:
