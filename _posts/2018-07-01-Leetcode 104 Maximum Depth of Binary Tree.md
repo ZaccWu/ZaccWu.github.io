@@ -25,14 +25,13 @@ The easy implementation with C code is as follow:
 
 C Code
 ```c 
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     struct TreeNode *left;
- *     struct TreeNode *right;
- * };
- */
+
+// Definition for a binary tree node.
+// struct TreeNode {
+//     int val;
+//     struct TreeNode *left;
+//     struct TreeNode *right;
+// };
 
 int maxDepth(struct TreeNode *root) {
 	if(NULL==root) return 0;
@@ -49,10 +48,15 @@ Here's the solution with Python.
 Python Code
 ```python
 # Definition for a binary tree node.
+
 # class TreeNode(object):
+
 #     def __init__(self, x):
+
 #         self.val = x
+
 #         self.left = None
+
 #         self.right = None
 
 class Solution(object):
@@ -74,6 +78,7 @@ The first one uses stack and the second one uses queue.
 ```python
 # Other solutions
 # Using Stack
+
 class Solution(object):
     def maxDepth(self, root):     
         if not root:
@@ -94,6 +99,7 @@ class Solution(object):
         return h
         
 # Using Queue
+
 class Solution(object):
     def maxDepth(self, root):     
         if not root:
