@@ -44,10 +44,10 @@ Here's a solution. First I used two loops to find out the same elements in the t
 
 C Code
 ```c
-/**
- * Return an array of size *returnSize.
- * Note: The returned array must be malloced, assume caller calls free().
- */
+
+// Return an array of size *returnSize.
+// Note: The returned array must be malloced, assume caller calls free().
+
 int* nextGreaterElement(int* nums1, int nums1Size, int* nums2, int nums2Size, int* returnSize) {
     int* result =(int*)malloc(nums1Size*sizeof(int));
     *returnSize = nums1Size;
