@@ -21,14 +21,14 @@ The best way to solve this kind of problem is using recursion or iteration. Here
 
 C Code
 ```c
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     struct TreeNode *left;
- *     struct TreeNode *right;
- * };
- */
+
+// Definition for a binary tree node.
+// struct TreeNode {
+//     int val;
+//     struct TreeNode *left;
+//     struct TreeNode *right;
+// };
+
 bool isSameTree(struct TreeNode* p, struct TreeNode* q) {
     if(p==NULL && q==NULL) return true;
     if((p==NULL && q!=NULL) || (p!=NULL && q==NULL)) return false;
@@ -46,10 +46,15 @@ The code has the same idea with C above:
 Python Code
 ```python
 # Definition for a binary tree node.
+
 # class TreeNode(object):
+
 #     def __init__(self, x):
+
 #         self.val = x
+
 #         self.left = None
+
 #         self.right = None
 
 class Solution(object):
