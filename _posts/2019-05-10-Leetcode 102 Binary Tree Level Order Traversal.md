@@ -26,21 +26,33 @@ To make the process more clear, I used 'TreeDepth' function to calculate the dep
 C Code
 ```c
 /**
+
  * Definition for a binary tree node.
+ 
  * struct TreeNode {
+ 
  *     int val;
+ 
  *     struct TreeNode *left;
+ 
  *     struct TreeNode *right;
+ 
  * };
+ 
  */
 
 /**
+
  * Return an array of arrays of size *returnSize.
+ 
  * The sizes of the arrays are returned as *returnColumnSizes array.
+ 
  * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().
+ 
  */
 
 /* First we need to figure out the depth of the Binary Tree */
+
 int TreeDepth(struct TreeNode* root){
     if(!root) return 0;
     int leftDepth=TreeDepth(root->left)+1;
@@ -81,13 +93,19 @@ The Python code may be more concise, it also uses the recursive idea. We can als
 Python Code
 ```python
 # Definition for a binary tree node.
+
 # class TreeNode(object):
+
 #     def __init__(self, x):
+
 #         self.val = x
+
 #         self.left = None
+
 #         self.right = None
 
 #recursive solution
+
 class Solution:
     def _levelOrder(self, level, result, node):
         if node:
