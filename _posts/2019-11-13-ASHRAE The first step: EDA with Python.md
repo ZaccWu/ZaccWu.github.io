@@ -1,7 +1,7 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
 title:      ASHRAE The first step (EDA with Python)               # 标题 
-subtitle:   Kaggle Competition #副标题
+subtitle:   Visualization of time series data #副标题
 date:       2019-11-13             # 时间
 author:     WZY                      # 作者
 header-img: img/post-bg-universe.jpg    #这篇文章标题背景图片
