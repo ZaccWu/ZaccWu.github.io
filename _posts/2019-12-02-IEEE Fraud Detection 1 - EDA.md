@@ -10,7 +10,7 @@ tags:                               #标签
     - Kaggle
 --- 
 
-# IEEE Fraud Detection: EDA
+# IEEE Fraud Detection 1 - EDA
 
 ## 1 Description
 
