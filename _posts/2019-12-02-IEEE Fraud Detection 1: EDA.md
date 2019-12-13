@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      IEEE Fraud Detection (EDA)               # 标题 
+title:      IEEE Fraud Detection 1: EDA               # 标题 
 subtitle:   Visualization, using Seaborn #副标题
 date:       2019-12-02             # 时间
 author:     WZY                      # 作者
