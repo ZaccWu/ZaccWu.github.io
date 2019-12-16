@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      IEEE Fraud Detection 1 - Data Processing and Simplest Model               # 标题 
+title:      IEEE Fraud Detection 2 - Data Processing and Simplest Model               # 标题 
 subtitle:   Dealing with the massive data
 date:       2019-12-16             # 时间
 author:     WZY                      # 作者
