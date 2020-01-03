@@ -160,7 +160,7 @@ useful_cols=['isFraud','TransactionAmt','ProductCD','card1','card2','card3','car
             'DeviceType','DeviceInfo']
 ```
 
-Also, for the missing value, we need to fill those columns with mean or mode.
+For columns with missing values, we need to fill them with average or mode.
 
 ```python
 def drop_columns(data):
@@ -229,7 +229,7 @@ check(test)
     Index: []
     
 
-We can see that there aren't missing value in our dataset now.
+We can see that missing values do not exist in our dataset now.
 
 ### 2.3 Log Transform the Data
 
@@ -294,7 +294,7 @@ import lightgbm as lgb
 
 ### 3.1 One-hot Encoding
 
-For those categorial features, it is suitable to do one-hot encoding, which will transform those features into vectors. (You can also do this step just after importing the data)
+For those categorial features, it is suitable to do one-hot encoding, which will transform those features to vectors. (You can also do this step just after importing the data)
 
 ```python
 # one-hot
@@ -371,7 +371,7 @@ print('Running time: %s Seconds'%(end-start))
     Running time: 86.99202809999952 Seconds
     
 
-We can see that the accruacy is relatively high. However, don't forget we are dealing with a really unbalanced dataset! So if we just predict all the target values are **Not Fraud**, we will get high accracy score, too. So it is necessary for us to check the confusion matrix. We can see that this algorithm doesn't perform well in this case.
+We can see that the accuracy is relatively high. However, don't forget we are dealing with a really unbalanced dataset! So if we just predict all the target values are **Not Fraud**, we will get high accuracy score, too. So it is necessary for us to check the confusion matrix. We can see that this algorithm doesn't perform well in this case.
 
 #### 3.2.2 K Nearest Neighbor
 
