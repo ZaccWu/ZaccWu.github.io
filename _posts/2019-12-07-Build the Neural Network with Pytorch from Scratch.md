@@ -133,7 +133,7 @@ print(cnn)
     
 This network has two convolution layers. We use ReLU activation function and MaxPooling. Also the network has a fully connected layer(Linear).
 
-In the training process we pack x and y using 'Variable', and put them into the CNN model to calculate the output and the error.
+In training process we pack x and y using 'Variable', and put them into the CNN model to calculate the output and the error.
 
 ```python
 # training
@@ -388,7 +388,7 @@ print(rnn)
       (out): Linear(in_features=32, out_features=1, bias=True)
     )
     
-Now we define the optimizer.
+Now it is time for us to define the optimizer.
 
 ```python
 optimizer=torch.optim.Adam(rnn.parameters(),lr=LR)
@@ -431,7 +431,9 @@ Now we can fit COS function with input SIN function.
 
 ## 4 AutoEncoder
 
-The neural network can do the unsupervised learning, we only need the training data without labels. The tool is AutoEncoder.
+The neural network can do unsupervised learning, which means we only need the data without labels. To achieve this a powerful tool is AutoEncoder.
+
+And we can construct this model with Pytorch easily.
 
 ```python
 '''
@@ -624,7 +626,7 @@ plt.show()
 
 ## 5 DQN
 
-In this part, we can use Pytorch to build network for reinforcement learning. Here we need **gym** module.
+In this part, we can use Pytorch to build network for reinforcement learning. This model is the **Helloword** part in the field of RL. We need to use **gym** module.
 
 ```python
 '''
@@ -795,6 +797,8 @@ for i_episode in range(400):
     
 
 ## 6 GAN
+
+GAN is a deep learning model and is one of the most promising methods in the field of unsupervised learning in recent years, especially in the case of complex distribution.
 
 ```python
 '''
