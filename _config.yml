@@ -102,19 +102,19 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "YU LINEN .ZJU",
+        title: "YU LINEN",
         href: "https://cestunyu.github.io/"
     },
     {
-        title: "LIU YUANJIAN .ZJU",
+        title: "LIU YUANJIAN",
         href: "https://www.liuyuanjian.com/"
     },
     {
-        title: "MAO YUHAO .ZJU",
+        title: "MAO YUHAO",
         href: "https://algebraloveme.github.io/"
     },
     {   
-        title: "CHEN XUGAN .ZJU",
+        title: "CHEN XUGAN",
         href: "http://xuganchen.com/"
     }
 ]
