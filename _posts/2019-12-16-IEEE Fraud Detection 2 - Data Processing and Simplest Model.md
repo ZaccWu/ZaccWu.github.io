@@ -552,7 +552,7 @@ print('Running time: %s Seconds'%(end-start))
 
 We can see that among these algorithms, XGBoost and LightGBM perform well and we have discussed these two algorithms in other passages. However, if we want to improve the performance, beside adjusting the parameters, we need to do taxing feature engineering as this is a question based on actual commercial environment.
 
-![](https://github.com/Tinky2013/Kernel-Collection/raw/master/004%20IEEE%20Fraud%20Detection/img/1/blank.jpg)
+![jpg](https://github.com/Tinky2013/Kernel-Collection/raw/master/004%20IEEE%20Fraud%20Detection/img/1/blank.jpg)
 
 ## 4 Make Submissions
 
