@@ -1,5 +1,5 @@
 # Site settings
-title: Azure Lab 2020
+title: DIRI Lab 2020
 SEOTitle: 武子越的博客 | WU ZIYUE's Blog
 header-img: img/A.jpg
 email: wuziyue@zju.edu.cn
@@ -102,20 +102,20 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "YU LINEN",
-        href: "https://cestunyu.github.io/"
-    },
-    {
-        title: "LIU YUANJIAN",
-        href: "https://www.liuyuanjian.com/"
-    },
-    {
         title: "MAO YUHAO",
         href: "https://algebraloveme.github.io/"
     },
     {   
         title: "CHEN XUGAN",
         href: "http://xuganchen.com/"
+    },
+    {
+        title: "YU LINEN",
+        href: "https://cestunyu.github.io/"
+    },
+    {
+        title: "LIU YUANJIAN",
+        href: "https://www.liuyuanjian.com/"
     }
 ]
 #
