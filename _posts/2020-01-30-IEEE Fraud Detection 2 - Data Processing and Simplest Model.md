@@ -51,7 +51,7 @@ print(f'Test: {test.shape[0]} rows {test.shape[1]} columns.')
     Train: 590540 rows 434 columns.
     Test: 506691 rows 433 columns.
     
-We can see that the dataset is really large, so while processing the data we should take the efficiency of the methods into account.
+We can see that the dataset is relatively large, so while processing the data we should take the efficiency into account.
 
 ### 1.2 Reduce the Memory
 
@@ -61,7 +61,7 @@ First we delete the dataset that we won't use in the subsequent steps.
 del tran_tr, iden_tr, tran_ts, iden_ts
 ```
 
-This function is used to reduce the memory usage of the dataset.
+This function is used to reduce the memory usage of the dataset, which can accelerate the process.
 
 ```python
 from pandas.api.types import is_datetime64_any_dtype as is_datetime
@@ -122,7 +122,7 @@ We can see that the memory usage has largely reduced and it will process faster 
 
 ### 2.1 Label Encoding
 
-In this part we need to convert the categorial features to integers, so we use the **LabelEncoder** in sklearn.
+In this part we need to convert the categorial features to integers. By using the **LabelEncoder** in sklearn it will be easier to achieve the goal.
 
 ```python
 # label encoding
@@ -145,7 +145,7 @@ print(f'Test: {test.shape[0]} rows {test.shape[1]} columns.')
 
 ### 2.2 Drop Useless Columns and Fill the NaN
 
-We can see that we have too many features in this dataset, however, we have done some work before and observed how those data points distribute. So we may choose some useful columns for our model in this part.
+We can see that there're too many features in this dataset. Luckily, we have visualized those features' distributions before and analyzed what they may represent. So we can choose some useful columns for our model in this part.
 
 ```python
 useful_cols=['isFraud','TransactionAmt','ProductCD','card1','card2','card3','card4','card5','card6',
@@ -160,7 +160,7 @@ useful_cols=['isFraud','TransactionAmt','ProductCD','card1','card2','card3','car
             'DeviceType','DeviceInfo']
 ```
 
-For columns with missing values, we need to fill them with average or mode.
+For columns with missing values, fill them with average or mode (or the most frequent category).
 
 ```python
 def drop_columns(data):
@@ -233,7 +233,7 @@ We can see that missing values do not exist in our dataset now.
 
 ### 2.3 Log Transform the Data
 
-For the column **TransactionAmt**, we can do the log transform to make the distribution of the data closer to a normal distribution.
+For the column **TransactionAmt**, it is fine to do the log transform to make the distribution of the data closer to a normal distribution.
 
 ```python
 def data_transform(data):
@@ -274,7 +274,7 @@ print(f'Test: {test.shape[0]} rows {test.shape[1]} columns.')
 
 ## 3 Build the Models
 
-In this passage we only try a few simple models in sklearn and observe the output. Further improvement of the models will be discussed in the serial articles.
+In this passage I only try a few simple models in sklearn and observe the output. Further improvement of the models will be discussed in the serial articles.
 
 ```python
 import sklearn.metrics as metric
@@ -339,7 +339,7 @@ print(f'Test: {test.shape[0]} rows {test.shape[1]} columns.')
 
 ### 3.2 Build the Models
 
-In this step, we need to split the dataset into training set and testing set.
+In this step, split the dataset into training set and testing set as we usually do in building supervised learning models.
 
 ```python
 # build the model
@@ -348,7 +348,7 @@ y = train.loc[:,'isFraud']
 X_train, X_test, y_train, y_test= train_test_split(X, y, test_size=0.25, random_state=0)
 ```
 
-Now we can try several models:
+After we finish the job, we can try several models:
 
 #### 3.2.1 Random Forest
 
