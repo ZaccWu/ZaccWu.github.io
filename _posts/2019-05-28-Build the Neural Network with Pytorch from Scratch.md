@@ -2,7 +2,7 @@
 layout:     post                    # 使用的布局（不需要改）
 title:      Build the Neural Network with Pytorch from Scratch             # 标题 
 subtitle:    #副标题
-date:       2019-12-07             # 时间
+date:       2019-05-28             # 时间
 author:     WZY                      # 作者
 header-img: img/post-bg-universe.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
