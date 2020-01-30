@@ -2,7 +2,7 @@
 layout:     post                    # 使用的布局（不需要改）
 title:      IEEE Fraud Detection 1 - EDA               # 标题 
 subtitle:   Visualization, using Seaborn #副标题
-date:       2019-12-02             # 时间
+date:       2020-01-27             # 时间
 author:     WZY                      # 作者
 header-img: img/post-bg-universe.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
