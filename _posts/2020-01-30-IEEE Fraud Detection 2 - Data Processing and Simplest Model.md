@@ -2,7 +2,7 @@
 layout:     post                    # 使用的布局（不需要改）
 title:      IEEE Fraud Detection 2 - Data Processing and Simplest Model               # 标题 
 subtitle:   Dealing with the massive data
-date:       2019-12-16             # 时间
+date:       2020-01-30             # 时间
 author:     WZY                      # 作者
 header-img: img/post-bg-universe.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
