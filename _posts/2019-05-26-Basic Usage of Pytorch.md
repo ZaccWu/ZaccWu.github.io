@@ -2,7 +2,7 @@
 layout:     post                    # 使用的布局（不需要改）
 title:      Basic Usage of Pytorch               # 标题 
 subtitle:    #副标题
-date:       2019-12-06             # 时间
+date:       2019-05-26            # 时间
 author:     WZY                      # 作者
 header-img: img/post-bg-universe.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
