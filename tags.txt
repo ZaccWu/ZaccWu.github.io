@@ -1,3 +1,4 @@
+<!--改成html文件启用tags页面-->
 ---
 title: Tags
 layout: default
@@ -68,3 +69,4 @@ header-img: "img/pencil.JPG"
 		</div>
 	</div>
 </div>
+
