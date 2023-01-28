@@ -5,9 +5,9 @@ header-img: img/color20.jpg
 email: ziyuewu@zju.edu.cn
 description: "Learn By Doing, Keep Your Hands Dirty."
 keyword: "Ziyue Wu"
-url: "http://Tinky2013.github.io"          # your host, for absolute URL
+url: "http://ZaccWu.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/Tinky2013/Tinky2013.github.io.git" # you code repository
+github_repo: "https://github.com/ZaccWu/ZaccWu.github.io.git" # you code repository
 
 paginate: 10
 paginate_path: /blog/page：num
@@ -22,7 +22,7 @@ sidebar-avatar: /img/photo3.jpg      # use absolute URL, seeing it's used in bot
 # SNS settings
 RSS: false
 zhihu_username:     tinky2013
-github_username:    Tinky2013
+github_username:    ZaccWu
 facebook_username:  
 twitter_username:   ZIYUEWU20
 
@@ -64,18 +64,18 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true #用来做启用判断可以不用
-  owner: 'tinky2013' #Github 用户名,
-  repo: 'tinky2013.github.io' #储存评论issue的github仓库名
-  admin: 'tinky2013' #Github 用户名,
+  owner: 'zaccwu' #Github 用户名,
+  repo: 'zaccwu.github.io' #储存评论issue的github仓库名
+  admin: 'zaccwu' #Github 用户名,
   clientID: 'dbe62285207629cc4e28' #`Github Application clientID`
   clientSecret: '5c80657ef38351c374a9e76e7410eeb1ca1a7323' #`Github Application clientSecret`
   
 # gitalk: true
 # gitalk_clientID: '035b0b4110249333914a'
 # gitalk_Secret: '7e719e0b6475a9231d47535e328352e2062252f6'
-# gitalk_repo: 'tinky2013.github.io'
-# gitalk_owner: 'tinky2013'
-# gitalk_admin: 'tinky2013'
+# gitalk_repo: 'zaccwu.github.io'
+# gitalk_owner: 'zaccwu'
+# gitalk_admin: 'zaccwu'
 # distractionFreeMode: true
 
 
