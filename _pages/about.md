@@ -67,7 +67,8 @@ Scholars Forum.
 - *2018* National Scholarship (Top 2%).
 
 # 🎖 Invited Talks
-- *2022.12*, Annual Conference of Big Data Business Analytics and China Management Young Scholars Forum. 
+*2022.12*, Annual Conference of Big Data Business Analytics and China Management Young Scholars Forum. 
+- Title: A network representation learning approach to identify causality in social network observational data.
 
 # 💻 Activities and Exchange Experiences
 
