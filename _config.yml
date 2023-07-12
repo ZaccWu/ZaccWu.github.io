@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Ziyue Wu"
-description              : "Ph.D candidate"
+description              : "Ph.D candidate in Department of Data Science and Management Engineering"
 repository               : "ZaccWu/ZaccWu.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,8 +22,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Ziyue Wu"
-  avatar           : "images/me.jpg"
-  bio              : "School of Management, Zhejiang University"
+  avatar           : "images/me.png"
+  bio              : "Zhejiang University"
   location         : "Hangzhou, China"
   employer         :
   pubmed           : 
