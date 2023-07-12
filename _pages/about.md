@@ -30,7 +30,7 @@ I'm really enthusiastic about the interdisciplinary field of Statistics, Machine
 # 🔥 News
 - *2023.07*: POMs China. 
 
-# 📝 Work-in Process
+# 📝 Work in Process
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
