@@ -3,14 +3,11 @@ main:
   - title: "About Me"
     url: "/#about-me"
 
-  - title: "News"
-    url: "/#-news"
-
   - title: "Work in Process"
     url: "/#-work-in-process"
 
-  - title: "Publications"
-    url: "/#-publications"
+  - title: "Research Papers"
+    url: "/#-research-papers"
 
   - title: "Educations"
     url: "/#-educations"
@@ -23,3 +20,6 @@ main:
 
   - title: "Activities"
     url: "/#-activities"
+
+  - title: "Services"
+    url: "/#-services"
