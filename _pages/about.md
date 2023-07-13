@@ -19,8 +19,9 @@ redirect_from:
 
 Hi，I'm **ZIYUE WU**, a Ph.D student in School of Management, Zhejiang University, advised by Professor [Xi Chen](https://person.zju.edu.cn/chenxi/). I'm enthusiastic about the interdisciplinary field of Statistics, Machine Learning and Business Studies, and I'm devoted to data-driven managerial practices. 
 
-I recevied my B.S. in Statistics (STATS) and B.M.S. in Information Management and Information Systems (IMIS) in Zhejiang University in 2021. My doctoral research direction is social dynamics modeling at present, and my research interests broadly include the following topics:
-- **Methodological Research**: Casual inference in machine learning, Network analysis and graph learning,
+I recevied my B.S. in Statistics (STATS) and B.M.S. in Information Management and Information Systems (IMIS) in Zhejiang University in 2021. Currently I’m working on social dynamics modeling, starting from the practical issues and addressing the important challenges of social network analysis at the methodological and applied levels based on different theoretical perspectives. Specifically, my research interests broadly include the following topics:
+
+- **Methodological Research**: Casual inference in machine learning, Graph learning,
 Time series forecasting, Interpretable machine learning, Bayesian statistics and Bayesian deep learning.
 - **Applied Research**: Social network, Social media, Customer behavior, Precision marketing and product
 promotion, Financial technology.
@@ -63,11 +64,11 @@ promotion, Financial technology.
 
 # 📝 Research Papers
 **Accepted Papers**
-- **Ziyue Wu**, Xi Chen*, Zhaoxing Gao. Bayesian Non-parametric Method for Online Products Sales Forecasting. ***Decision Support Systems***, 2023, Forthcoming. [https://doi.org/10.1016/j.dss.2023.114019](https://doi.org/10.1016/j.dss.2023.114019)
+- **Ziyue Wu**, Xi Chen\*, Zhaoxing Gao. Bayesian Non-parametric Method for Online Products Sales Forecasting. ***Decision Support Systems***, 2023, Forthcoming. [https://doi.org/10.1016/j.dss.2023.114019](https://doi.org/10.1016/j.dss.2023.114019)
 
 **Papers Under Review/Revision**
-- **Ziyue Wu**, Xi Chen*. Co-move in the Future? A Multi-task Learning Approach for Stock Prediction with Dynamic Co-movement Graph. Submitted to ***Management Science***.
-- **Ziyue Wu**, Xi Chen*. Estimating Weighted Peer Influence by Controlling Unobservable Homophily Using Deep Graph Learning. Submitted to ***IEEE Transaction on Knowledge and Data Engineering(TKDE)***.
+- **Ziyue Wu**, Xi Chen\*. Co-move in the Future? A Multi-task Learning Approach for Stock Prediction with Dynamic Co-movement Graph. Submitted to ***Management Science***.
+- **Ziyue Wu**, Xi Chen\*. Estimating Weighted Peer Influence by Controlling Unobservable Homophily Using Deep Graph Learning. Submitted to ***IEEE Transaction on Knowledge and Data Engineering(TKDE)***.
 
 # 📖 Educations
 *2021.9 - Present*, Zhejiang University, School of Management. 
