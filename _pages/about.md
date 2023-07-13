@@ -25,28 +25,37 @@ Time series forecasting, Interpretable machine learning, Bayesian statistics and
 - **Applied Research**: Social network, Social media, Customer behavior, Precision marketing and product
 promotion, Financial technology.
 
-# 🔥 Work in Process
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Product Recommendation</div><img src='images/r4.png' alt="sym" width="100%"></div></div>
+# 🔥 Works in Progress
+<!--<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Product Recommendation</div><img src='images/r4.png' alt="sym" width="100%"></div></div>-->
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/r4.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**What if Social Bots Be My Friends? Estimating Causal Effect of Social Bots Using Counterfactual Graph Learning.**
+**Excavating the long-tail: A graph representation learning approach for product recommendation.**
 
 **Ziyue Wu**, Xi Chen, Ruijin Jin
-- Problem: Discovering and recommending profitable long-tail products based on customer-product interactions.
-- Academic/practical relevance: The sparse interactions of long-tail products cause difficulties in capturing their demands, whereas popular products receive more interactions due to the herding effect, making classical interaction-based recommendation algorithms tend to exert attention on popular products and ignore the long-tail ones.
-- Methodolgy:  A graph representation learning approach that can (1) capture the market structure to infer customer preference, (2) model the influence of customer herding and enhance the attention on long-tail products, and (3) improve customer interaction prediction and product recommendations.
-- Results: (1) Advantageous prediction performance of the approach through synthetic and empirical experiments; (2) Increases the recall rate of product recommendation on a large e-commerce platform; (3) Provides useful insights by discovering latent product hierarchy and interpretable cross-category product relations.
+
+**Highlights**
+- Discovering and recommending long-tail products based on customer-product interactions.
+- Addressing sparse interactions of long-tail products and customer herding effect on RS. 
+- Capturing the market structure to infer customer preference.
+- Advantageous performance on various datasets and online e-commerce platform.
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Social Bots</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/r5.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **What if Social Bots Be My Friends? Estimating Causal Effect of Social Bots Using Counterfactual Graph Learning.**
 
 **Ziyue Wu**, Yiqun Zhang, Xi Chen
-- Introduction
+
+**Highlights**
+- Investigating the impact differences between human and social bots on individuals’ opinion.
+- Addressing the absence of counterfactual results in observational network data. 
+- Designing a counterfactual graph learning approach to accurately estimate causal effect.
+- Discovers diverse influential patterns of different types of opinions expressed by influence sources.
+
 </div>
 </div>
 
@@ -54,11 +63,11 @@ promotion, Financial technology.
 
 # 📝 Research Papers
 **Accepted Papers**
-- **Ziyue Wu**, Xi Chen*, Zhaoxing Gao. Bayesian Non-parametric Method for Online Products Sales Forecasting. **Decision Support Systems**, 2023, Forthcoming. [https://doi.org/10.1016/j.dss.2023.114019](https://doi.org/10.1016/j.dss.2023.114019)
+- **Ziyue Wu**, Xi Chen*, Zhaoxing Gao. Bayesian Non-parametric Method for Online Products Sales Forecasting. ***Decision Support Systems***, 2023, Forthcoming. [https://doi.org/10.1016/j.dss.2023.114019](https://doi.org/10.1016/j.dss.2023.114019)
 
 **Papers Under Review/Revision**
-- **Ziyue Wu**, Xi Chen*. Co-move in the Future? A Multi-task Learning Approach for Stock Prediction with Dynamic Co-movement Graph. Submitted to **Management Science**.
-- **Ziyue Wu**, Xi Chen*. Estimating Weighted Peer Influence by Controlling Unobservable Homophily Using Deep Graph Learning. Submitted to **IEEE Transaction on Knowledge and Data Engineering(TKDE)**.
+- **Ziyue Wu**, Xi Chen*. Co-move in the Future? A Multi-task Learning Approach for Stock Prediction with Dynamic Co-movement Graph. Submitted to ***Management Science***.
+- **Ziyue Wu**, Xi Chen*. Estimating Weighted Peer Influence by Controlling Unobservable Homophily Using Deep Graph Learning. Submitted to ***IEEE Transaction on Knowledge and Data Engineering(TKDE)***.
 
 # 📖 Educations
 *2021.9 - Present*, Zhejiang University, School of Management. 

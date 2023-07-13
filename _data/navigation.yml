@@ -3,8 +3,8 @@ main:
   - title: "About Me"
     url: "/#about-me"
 
-  - title: "Work in Process"
-    url: "/#-work-in-process"
+  - title: "Works in Progress"
+    url: "/#-works-in-progress"
 
   - title: "Research Papers"
     url: "/#-research-papers"
