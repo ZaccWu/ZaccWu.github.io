@@ -17,26 +17,40 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi，I'm ZIYUE WU, a PhD student in School of Management, Zhejiang University, advised by Professor [Xi Chen](https://person.zju.edu.cn/chenxi/). I recevied my B.S. in Statistics and B.M.S. in Information Management and Information Systems in Zhejiang University.
+Hi，I'm **ZIYUE WU**, a Ph.D student in School of Management, Zhejiang University, advised by Professor [Xi Chen](https://person.zju.edu.cn/chenxi/). I'm enthusiastic about the interdisciplinary field of Statistics, Machine Learning and Business Studies, and I'm devoted to data-driven managerial practices. 
 
-I'm really enthusiastic about the interdisciplinary field of Statistics, Machine Learning and Business Studies. My research interests broadly include the following topics:
+I recevied my B.S. in Statistics (STATS) and B.M.S. in Information Management and Information Systems (IMIS) in Zhejiang University in 2021. My doctoral research direction is social dynamics modeling at present, and my research interests broadly include the following topics:
 - **Methodological Research**: Casual inference in machine learning, Network analysis and graph learning,
 Time series forecasting, Interpretable machine learning, Bayesian statistics and Bayesian deep learning.
 - **Applied Research**: Social network, Social media, Customer behavior, Precision marketing and product
 promotion, Financial technology.
 
 # 🔥 Work in Process
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Product Recommendation</div><img src='images/r4.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+**What if Social Bots Be My Friends? Estimating Causal Effect of Social Bots Using Counterfactual Graph Learning.**
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Ziyue Wu**, Xi Chen, Ruijin Jin
+- Problem: Discovering and recommending profitable long-tail products based on customer-product interactions.
+- Academic/practical relevance: The sparse interactions of long-tail products cause difficulties in capturing their demands, whereas popular products receive more interactions due to the herding effect, making classical interaction-based recommendation algorithms tend to exert attention on popular products and ignore the long-tail ones.
+- Methodolgy:  A graph representation learning approach that can (1) capture the market structure to infer customer preference, (2) model the influence of customer herding and enhance the attention on long-tail products, and (3) improve customer interaction prediction and product recommendations.
+- Results: (1) Advantageous prediction performance of the approach through synthetic and empirical experiments; (2) Increases the recall rate of product recommendation on a large e-commerce platform; (3) Provides useful insights by discovering latent product hierarchy and interpretable cross-category product relations.
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 </div>
 </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Social Bots</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**What if Social Bots Be My Friends? Estimating Causal Effect of Social Bots Using Counterfactual Graph Learning.**
+
+**Ziyue Wu**, Yiqun Zhang, Xi Chen
+- Introduction
+</div>
+</div>
+
+
 
 # 📝 Research Papers
 **Accepted Papers**
