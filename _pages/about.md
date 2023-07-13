@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi，I'm **ZIYUE WU**, a Ph.D student in School of Management, Zhejiang University, advised by Professor [Xi Chen](https://person.zju.edu.cn/chenxi/). I'm enthusiastic about the interdisciplinary field of Statistics, Machine Learning and Business Studies, and I'm devoted to data-driven managerial practices. 
+Hi，I'm **ZIYUE WU (武子越)**, a Ph.D student in School of Management, Zhejiang University, advised by Professor [Xi Chen](https://person.zju.edu.cn/chenxi/). I'm enthusiastic about the interdisciplinary field of Statistics, Machine Learning and Business Studies, and I'm devoted to data-driven managerial practices. 
 
 I recevied my B.S. in Statistics (STATS) and B.M.S. in Information Management and Information Systems (IMIS) in Zhejiang University in 2021. Currently I’m working on social dynamics modeling, starting from the practical issues and addressing the important challenges of social network analysis at the methodological and applied levels based on different theoretical perspectives. Specifically, my research interests broadly include the following topics:
 
