@@ -67,8 +67,8 @@ promotion, Financial technology.
 - **Ziyue Wu**, Xi Chen\*, Zhaoxing Gao. Bayesian Non-parametric Method for Online Products Sales Forecasting. ***Decision Support Systems***, 2023, Forthcoming. [https://doi.org/10.1016/j.dss.2023.114019](https://doi.org/10.1016/j.dss.2023.114019)
 
 **Papers Under Review/Revision**
-- **Ziyue Wu**, Xi Chen\*. Co-move in the Future? A Multi-task Learning Approach for Stock Prediction with Dynamic Co-movement Graph. Submitted to ***Management Science***.
-- **Ziyue Wu**, Xi Chen\*. Estimating Weighted Peer Influence by Controlling Unobservable Homophily Using Deep Graph Learning. Submitted to ***IEEE Transaction on Knowledge and Data Engineering(TKDE)***.
+- **Ziyue Wu**, Xi Chen\*. Estimating Weighted Peer Influence by Controlling Unobservable Homophily Using Deep Graph Learning. Submitted to ***Management Science***.
+- **Ziyue Wu**, Xi Chen\*. Co-move in the Future? A Multi-task Learning Approach for Stock Prediction with Dynamic Co-movement Graph. Submitted to ***IEEE Transaction on Knowledge and Data Engineering(TKDE)***.
 
 # 📖 Educations
 *2021.9 - Present*, Zhejiang University, School of Management. 
