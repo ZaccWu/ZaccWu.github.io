@@ -64,7 +64,7 @@ promotion, Financial technology.
 
 # 📝 Research Papers
 **Accepted Papers**
-- **Ziyue Wu**, Xi Chen\*, Zhaoxing Gao. Bayesian Non-parametric Method for Online Products Sales Forecasting. ***Decision Support Systems***, 2023, Forthcoming. [https://doi.org/10.1016/j.dss.2023.114019](https://doi.org/10.1016/j.dss.2023.114019)
+- **Ziyue Wu**, Xi Chen\*, Zhaoxing Gao. Bayesian Non-parametric Method for Decision Support: Forecasting Online Product Sales. ***Decision Support Systems***, 2023, Forthcoming. [https://doi.org/10.1016/j.dss.2023.114019](https://doi.org/10.1016/j.dss.2023.114019)
 
 **Papers Under Review/Revision**
 - **Ziyue Wu**, Xi Chen\*. Co-move in the Future? A Multi-task Learning Approach for Stock Prediction with Dynamic Co-movement Graph. Submitted to ***IEEE Transaction on Knowledge and Data Engineering(TKDE)***.
