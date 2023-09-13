@@ -65,10 +65,10 @@ promotion, Financial technology.
 # 📝 Research Papers
 **Accepted Papers**
 - **Ziyue Wu**, Xi Chen\*, Zhaoxing Gao. Bayesian Non-parametric Method for Decision Support: Forecasting Online Product Sales. ***Decision Support Systems***, 2023, Forthcoming. [https://doi.org/10.1016/j.dss.2023.114019](https://doi.org/10.1016/j.dss.2023.114019)
-- **Ziyue Wu**, Xi Chen\*
+- **Ziyue Wu**, Yiqun Zhang, Xi Chen\*. What if Social Bots Be My Friends? Estimating Causal Effect of Social Bots Using Counterfactual Graph Learning. Accepted by ***Hawaii International Conference on Systems Sciences***.
 
 **Papers Under Review/Revision**
-- **Ziyue Wu**, Yiqun Zhang, Xi Chen\*. What if Social Bots Be My Friends? Estimating Causal Effect of Social Bots Using Counterfactual Graph Learning. Accepted by ***Hawaii International Conference on Systems Sciences***.
+- **Ziyue Wu**, Xi Chen\*. Co-move in the Future? A Multi-task Learning Approach for Stock Prediction with Dynamic Co-movement Graph. Submitted to ***IEEE Transaction on Knowledge and Data Engineering***.
 
 <!-- **Working Papers**
 - **Ziyue Wu**, Xi Chen\*. Estimating Weighted Peer Influence by Controlling Unobservable Homophily Using Deep Graph Learning. -->
@@ -107,8 +107,8 @@ Scholars Forum.
 
 # 💬 Services and clubs
 
-*2022.9 - Present*, Artificial Intelligence Association of Zhejiang University, Head of the academic department.
+*2022.9 - 2023.9*, Artificial Intelligence Association of Zhejiang University, Head of the academic department.
 
-*2021.11 – Present*, Asia-Pacific Student Entrepreneurship Society, Member.
+*Started from 2021.11*, Asia-Pacific Student Entrepreneurship Society, Member.
 
-*2020.5 – Present*, Zhejiang University Morningside Culture China Scholars Program (12th), Member.
+*Started from 2020.5*, Zhejiang University Morningside Culture China Scholars Program (12th), Member.
