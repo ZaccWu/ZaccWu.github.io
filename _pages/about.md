@@ -44,18 +44,18 @@ promotion, Financial technology.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/r5.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/r2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**What if Social Bots Be My Friends? Estimating Causal Effect of Social Bots Using Counterfactual Graph Learning.**
+**Estimating Weighted Peer Influence by Controlling Unobservable Homophily Using Deep Graph Learning.**
 
-**Ziyue Wu**, Yiqun Zhang, Xi Chen
+**Ziyue Wu**, Xi Chen
 
 **Highlights**
-- Investigating the impact differences between human and social bots on individuals’ opinion.
-- Addressing the absence of counterfactual results in observational network data. 
-- Designing a counterfactual graph learning approach to accurately estimate causal effect.
-- Discovers diverse influential patterns of different types of opinions expressed by influence sources.
+- Leveraging network structural information to recover unobservable homophilous factors.
+- Using node embeddings as proxy variables to recover the effect size of peer influence. 
+- Designing a neighbor-aware variational graph autoencoder to infer latent traits of the focal node.
+- Discovers heterogeneous influential patterns in an online social game.
 
 </div>
 </div>
@@ -65,12 +65,13 @@ promotion, Financial technology.
 # 📝 Research Papers
 **Accepted Papers**
 - **Ziyue Wu**, Xi Chen\*, Zhaoxing Gao. Bayesian Non-parametric Method for Decision Support: Forecasting Online Product Sales. ***Decision Support Systems***, 2023, Forthcoming. [https://doi.org/10.1016/j.dss.2023.114019](https://doi.org/10.1016/j.dss.2023.114019)
+- **Ziyue Wu**, Xi Chen\*
 
 **Papers Under Review/Revision**
-- **Ziyue Wu**, Xi Chen\*. Co-move in the Future? A Multi-task Learning Approach for Stock Prediction with Dynamic Co-movement Graph. Submitted to ***IEEE Transaction on Knowledge and Data Engineering(TKDE)***.
+- **Ziyue Wu**, Yiqun Zhang, Xi Chen\*. What if Social Bots Be My Friends? Estimating Causal Effect of Social Bots Using Counterfactual Graph Learning. Accepted by ***Hawaii International Conference on Systems Sciences***.
 
-**Working Papers**
-- **Ziyue Wu**, Xi Chen\*. Estimating Weighted Peer Influence by Controlling Unobservable Homophily Using Deep Graph Learning.
+<!-- **Working Papers**
+- **Ziyue Wu**, Xi Chen\*. Estimating Weighted Peer Influence by Controlling Unobservable Homophily Using Deep Graph Learning. -->
 
 # 📖 Educations
 *2021.9 - Present*, Zhejiang University, School of Management. 
