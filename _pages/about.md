@@ -27,7 +27,7 @@ Specifically, my research interests broadly include the following topics:
 Time series forecasting, Interpretable machine learning, Bayesian statistics, and Bayesian deep learning.
 - **Applied Research**: Social network, Social media, Human-AI collaboration, Customer behavior, Precision marketing and product promotion, and Financial technology.
 
-If you are seeking any form of academic cooperation, please feel free to email me at ziyuewu@zju.edu.cn.
+If you are seeking any form of academic cooperation, please feel free to email me at [ziyuewu@zju.edu.cn]("mailto:ziyuewu@zju.edu.cn").
 
 I also collaborate with companies for academic research and practical implementations, most of which are large online E-commerce platforms in China such as Alibaba. My Ph.D. thesis plans to focus on social dynamic modeling, particularly the methodological development and mechanism discovery of individual behaviors in networks.
 
@@ -110,7 +110,7 @@ Xi Chen. ***Ongoing research paper***.
 
 2023.9, A Bayesian Non-parametric Method for Product Sales Forecasting. **Doctoral Forum in School of Management, Zhejiang University**.
 
-2023.7, Leverage Market Membership Information for Long-tail Products Discovery. **China Management Annual Conference**.
+2023.7, Leverage Market Membership Information for Long-tail Product Discovery. **China Management Annual Conference**.
 
 2022.12, A Network Representation Learning Approach to Identify Causality in Social Network Observational Data. **Annual Conference of Big Data Business Analytics and China Management Young Scholars Forum**. 
 

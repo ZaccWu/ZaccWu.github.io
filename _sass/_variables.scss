@@ -13,8 +13,8 @@ $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 0.5em;
 
 /* system typefaces */
-$serif                      : Georgia, Times, serif;
-$sans-serif                 : 'Segoe UI', Helvetica, Arial, sans-serif;
+//$serif                      : Georgia, Times, serif;
+$serif                      : 'PT Serif', Times, serif;
 // $sans-serif                 : "Trebuchet MS", Helvetica, sans-serif;
 // $sans-serif                 : Georgia, serif, sans-serif;
 
@@ -32,8 +32,10 @@ $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
-$global-font-family         : $sans-serif;
-$header-font-family         : $sans-serif;
+//$global-font-family         : $sans-serif;
+//$header-font-family         : $sans-serif;
+$global-font-family         : $serif;
+$header-font-family         : $serif;
 $caption-font-family        : $serif;
 
 /* type scale */
