@@ -27,7 +27,7 @@ Specifically, my research interests broadly include the following topics:
 Time series forecasting, Interpretable machine learning, Bayesian statistics, and Bayesian deep learning.
 - **Applied Research**: Social network, Social media, Human-AI collaboration, Customer behavior, Precision marketing and product promotion, and Financial technology.
 
-If you are seeking any form of academic cooperation, please feel free to email me at [ziyuewu@zju.edu.cn]("mailto:ziyuewu@zju.edu.cn").
+If you are seeking any form of academic cooperation, please feel free to email me at **ziyuewu@zju.edu.cn**.
 
 I also collaborate with companies for academic research and practical implementations, most of which are large online E-commerce platforms in China such as Alibaba. My Ph.D. thesis plans to focus on social dynamic modeling, particularly the methodological development and mechanism discovery of individual behaviors in networks.
 
