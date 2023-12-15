@@ -19,13 +19,13 @@ redirect_from:
 
 Hi, I'm **Ziyue (Zacc) Wu** (武子越), a 3rd-year Ph.D. student in the **School of Management, Zhejiang University**, advised by Professor [Xi Chen](https://person.zju.edu.cn/chenxi/). I received my **Bachelor's Degree with Dual Majors** in Statistics (STATS) and Information Systems (IS) at Chu Kochen Honors College, Zhejiang University, in 2021.  
 
-I'm enthusiastic about the **interdisciplinary fields of <font color="purple">Statistics, Machine Learning, and Business Studies**</font>, and devoted to data-driven managerial practices. My research addresses crucial challenges in both academia and practical applications, drawing cutting-edge ideas in the field of **Statistics** and **Computer Science** to design novel methodological solutions adapted to these challenges. I also seek to unveil new mechanisms and principles in practical business scenarios, contributing to the advancement of managerial theories.
+I'm enthusiastic about the **interdisciplinary fields of <font color="purple">Statistics, Machine Learning, and Business Studies</font>**, and devoted to data-driven managerial practices. My research addresses crucial challenges in both academia and practical applications, drawing cutting-edge ideas in the field of **Statistics** and **Computer Science** to design novel methodological solutions adapted to these challenges. I also seek to unveil new mechanisms and principles in practical business scenarios, contributing to the advancement of managerial theories.
 
 Specifically, my research interests broadly include the following topics:
 
-- <font color="purple">**Methodological Research**</font>: Casual inference in machine learning, Graph learning,
+- **<font color="purple">Methodological Research</font>**: Casual inference in machine learning, Graph learning,
 Time series forecasting, Interpretable machine learning, Bayesian statistics, and Bayesian deep learning.
-- <font color="purple">**Applied Research**</font>: Social network, Social media, Human-AI collaboration, Customer behavior, Precision marketing and product promotion, and Financial technology.
+- **<font color="purple">Applied Research</font>**: Social network, Social media, Human-AI collaboration, Customer behavior, Precision marketing and product promotion, and Financial technology.
 
 **If you are seeking any form of academic cooperation, please feel free to email me at <font color="purple">ziyuewu@zju.edu.cn</font>**.
 
@@ -40,7 +40,7 @@ I also collaborate with companies for **academic research and practical implemen
 
 **Estimating the Effect of Social Bots in Networks Using Counterfactual Graph with Adversarial Learning.**
 
-<font color="purple">**Highlights**</font>
+**<font color="purple">Highlights</font>**
 - Examines the impact difference between humans and bots in influencing opinions in social networks. 
 - Designs an effective approach to conduct counterfactual inference in networks with graph neural networks and adversarial multitask learning.
 - The impact differences between bots and humans are overestimated without considering the underlying homophily.
@@ -54,7 +54,7 @@ I also collaborate with companies for **academic research and practical implemen
 
 **Learning the Shifting Attention: A Novel Framework for Blockbuster Content Prediction.**
 
-<font color="purple">**Highlights**</font>
+**<font color="purple">Highlights</font>**
 - An ongoing project with an E-commerce company for conducting content selection and explosive prediction.
 - Explore the internal and external factors fostering the generation of hot content from the user attention perspective. 
 - Design a theory-driven multivariate time series transfer learning approach to handle the shifting attention and user dynamics.
@@ -87,23 +87,23 @@ Xi Chen. ***Ongoing research paper***.
 **2017.9 – 2021.6**, Undergraduate, Zhejiang University, Chu Kochen Honors College. 
 
 # 🎉 Honors and Awards
-2023.12 <font color="purple">**[Scholarship]**</font>, First-Class Scholarship from Zhejiang University & Transfer Group Co., Ltd (Top 2%).
+2023.12 **<font color="purple">[Scholarship]</font>**, First-Class Scholarship from Zhejiang University & Transfer Group Co., Ltd (Top 2%).
 
-2023.9 <font color="purple">**[Award]**</font>, Outstanding Ph.D. Candidate Award in School of Management, Zhejiang University (Top 5%).
+2023.9 **<font color="purple">[Award]</font>**, Outstanding Ph.D. Candidate Award in School of Management, Zhejiang University (Top 5%).
 
-2022.12 <font color="purple">**[Award]**</font>, Best student paper in Annual Conference of Big Data and Business Analytics and China Management Young Scholars Forum. 
+2022.12 **<font color="purple">[Award]</font>**, Best student paper in Annual Conference of Big Data and Business Analytics and China Management Young Scholars Forum. 
 
-2021.10 <font color="purple">**[Scholarship]**</font>, Freshman scholarship for Ph.D. Candidates (Top 5%). 
+2021.10 **<font color="purple">[Scholarship]</font>**, Freshman scholarship for Ph.D. Candidates (Top 5%). 
 
-2019 <font color="purple">**[Scholarship]**</font>, Provincial Scholarship (Top 10%). 
+2019 **<font color="purple">[Scholarship]</font>**, Provincial Scholarship (Top 10%). 
 
-2019 & 2020 <font color="purple">**[Award]**</font>, Research Innovation Pacesetter in Chu Kochen Honors College. 
+2019 & 2020 **<font color="purple">[Award]</font>**, Research Innovation Pacesetter in Chu Kochen Honors College. 
 
-2018 & 2019 <font color="purple">**[Award]**</font>, Outstanding Students in Chu Kochen Honors College (Top 10%). 
+2018 & 2019 **<font color="purple">[Award]</font>**, Outstanding Students in Chu Kochen Honors College (Top 10%). 
 
-2018 & 2019 <font color="purple">**[Scholarship]**</font>, First-Class Scholarship for Excellent Students in Zhejiang University (Top 5%).
+2018 & 2019 **<font color="purple">[Scholarship]</font>**, First-Class Scholarship for Excellent Students in Zhejiang University (Top 5%).
 
-2018 <font color="purple">**[Scholarship]**</font>, National Scholarship (Top 2%).
+2018 **<font color="purple">[Scholarship]</font>**, National Scholarship (Top 2%).
 
 # 🎖 Invited Talks
 2023.12, Estimating the Impact of Social Bots in Opinion Diffusion in Social Networks. **Doctoral Forum in School of Management, Zhejiang University**.
