@@ -33,7 +33,7 @@ I also collaborate with companies for **academic research and practical implemen
 
 
 
-# 🔥 Ongoing Research
+# 🔥 Ongoing Projects
 <!--<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Product Recommendation</div><img src='images/r4.png' alt="sym" width="100%"></div></div>-->
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/r5.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -69,7 +69,7 @@ I also collaborate with companies for **academic research and practical implemen
 - **Ziyue Wu**, Xi Chen\*, Zhaoxing Gao. (2023). Bayesian Non-parametric Method for Decision Support: Forecasting Online Product Sales. ***Decision Support Systems***, 114019. [https://doi.org/10.1016/j.dss.2023.114019](https://doi.org/10.1016/j.dss.2023.114019)
 - **Ziyue Wu**, Yiqun Zhang, Xi Chen\*. (2024). What if Social Bots Be My Friends? Estimating Causal Effect of Social Bots Using Counterfactual Graph Learning. Accepted by 57th-***Hawaii International Conference on Systems Sciences***.
 
-**Work-In-Process**
+**Working Papers**
 - Uncovering the Long-tail: A Graph Representation Learning Approach for Product Recommendation, with Xi Chen, Ruijin Jin. ***Paper preparing for submission***.
 
 - Do Your Ties Affect Your Traits? A Graph Representation Learning Approach for Estimating Casual Peer
