@@ -72,11 +72,9 @@ I also collaborate with companies for **academic research and practical implemen
 **Working Papers**
 - Uncovering the Long-tail: A Graph Representation Learning Approach for Product Recommendation, with Xi Chen, Ruijin Jin. ***Paper preparing for submission***.
 
-- Do Your Ties Affect Your Traits? A Graph Representation Learning Approach for Estimating Casual Peer
-Influence, with Xi Chen. ***Paper preparing for submission***.
+- Do Your Ties Affect Your Traits? A Graph Representation Learning Approach for Estimating Casual Peer Influence, with Xi Chen. ***Paper preparing for submission***.
 
-- Co-move in the Future? Stock Prediction with Dynamic Co-movement Graph, with
-Xi Chen. ***Ongoing research paper***.
+- Co-move in the Future? Stock Prediction with Dynamic Co-movement Graph, with Xi Chen. ***Ongoing research paper***.
 
 <!-- **Working Papers**
 - **Ziyue Wu**, Xi Chen\*. Estimating Weighted Peer Influence by Controlling Unobservable Homophily Using Deep Graph Learning. -->
