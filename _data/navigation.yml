@@ -3,8 +3,8 @@ main:
   - title: "About Me"
     url: "/#about-me"
 
-  - title: "Works in Progress"
-    url: "/#-works-in-progress"
+  - title: "Ongoing Projects"
+    url: "/#-ongoing-projects"
 
   - title: "Research Papers"
     url: "/#-research-papers"
@@ -15,8 +15,8 @@ main:
   - title: "Honors and Awards"
     url: "/#-honors-and-awards"
 
-  - title: "Invited Talks"
-    url: "/#-invited-talks"
+  - title: "Conferences and Talks"
+    url: "/#-conferences-and-talks"
 
   - title: "Activities and Exchange Experiences"
     url: "/#-activities-and-exchange-experiences"
