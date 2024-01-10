@@ -19,17 +19,17 @@ redirect_from:
 
 Hi, I'm **Ziyue (Zacc) Wu** (武子越), a 3rd-year Ph.D. student in the **School of Management, Zhejiang University**, advised by Professor [Xi Chen](https://person.zju.edu.cn/chenxi/). I received my **Bachelor's Degree with Dual Majors** in Statistics (STATS) and Information Systems (IS) at Chu Kochen Honors College, Zhejiang University, in 2021.  
 
-I'm enthusiastic about the **interdisciplinary fields of <font color="purple">Statistics, Machine Learning, and Business Studies</font>**, and devoted to data-driven managerial practices. My research addresses crucial challenges in both academia and practical applications, drawing cutting-edge ideas in the field of **Statistics** and **Computer Science** to design novel methodological solutions adapted to these challenges. I also seek to unveil new mechanisms and principles in practical business scenarios, contributing to the advancement of managerial theories.
+I'm enthusiastic about the **interdisciplinary fields of <font color="purple">Statistics, Machine Learning, and Business Studies</font>**, and devoted to data-driven managerial practices. My research aims to address crucial challenges in both academia and practical applications, drawing cutting-edge ideas in the field of **Statistics** and **Computer Science** to design novel methodological solutions adapted to these challenges. I also seek to unveil new mechanisms and principles in business scenarios, contributing to the advancement of managerial theories.
 
 Specifically, my research interests broadly include the following topics:
 
 - **<font color="purple">Methodological Research</font>**: Casual inference in machine learning, Graph learning,
 Time series forecasting, Interpretable machine learning, Bayesian statistics, and Bayesian deep learning.
-- **<font color="purple">Applied Research</font>**: Social network, Social media, Human-AI collaboration, Customer behavior, Precision marketing and product promotion, and Financial technology.
+- **<font color="purple">Applied Research</font>**: Social network, Social media, Customer behavior, Human-AI collaboration, Precision marketing and product promotion, and Financial technology.
 
 **If you are seeking any form of academic cooperation, please feel free to email me at <font color="purple">ziyuewu@zju.edu.cn</font>**.
 
-I also collaborate with companies for **academic research and practical implementations**, most of which are large online E-commerce platforms in China such as Alibaba. My Ph.D. thesis plans to focus on social dynamic modeling, particularly the methodological development and mechanism discovery of individual behaviors in networks.
+I also collaborate with companies for **academic research and practical implementations**, most of which are large online E-commerce or social media platforms in China such as Alibaba. My Ph.D. thesis plans to focus on social dynamic modeling, particularly the methodological development and mechanism discovery of individual behaviors in networks.
 
 
 
@@ -55,8 +55,8 @@ I also collaborate with companies for **academic research and practical implemen
 **Learning the Shifting Attention: A Novel Framework for Blockbuster Content Prediction.**
 
 **<font color="purple">Highlights</font>**
-- An ongoing project with an E-commerce company for conducting content selection and explosive prediction.
-- Explore the internal and external factors fostering the generation of hot content from the user attention perspective. 
+- An ongoing project with an E-commerce company for conducting content selection and blockbuster prediction.
+- Explore the internal and external factors fostering the generation of hotspots from the user attention perspective. 
 - Design a theory-driven multivariate time series transfer learning approach to handle the shifting attention and user dynamics.
 
 </div>
@@ -65,9 +65,11 @@ I also collaborate with companies for **academic research and practical implemen
 
 
 # 📝 Research Papers
-**Accepted Papers**
+**Journal Papers**
 - **Ziyue Wu**, Xi Chen\*, Zhaoxing Gao. (2023). Bayesian Non-parametric Method for Decision Support: Forecasting Online Product Sales. ***Decision Support Systems***, 114019. [https://doi.org/10.1016/j.dss.2023.114019](https://doi.org/10.1016/j.dss.2023.114019)
-- **Ziyue Wu**, Yiqun Zhang, Xi Chen\*. (2024). What if Social Bots Be My Friends? Estimating Causal Effect of Social Bots Using Counterfactual Graph Learning. Accepted by 57th-***Hawaii International Conference on Systems Sciences***.
+
+**Conference Papers**
+- **Ziyue Wu**, Yiqun Zhang, Xi Chen\*. (2024). What if Social Bots Be My Friends? Estimating Causal Effect of Social Bots Using Counterfactual Graph Learning. 57th ***Hawaii International Conference on Systems Sciences (HICSS)***.
 
 **Working Papers**
 - Uncovering the Long-tail: A Graph Representation Learning Approach for Product Recommendation, with Xi Chen, Ruijin Jin. ***Paper preparing for submission***.
@@ -76,8 +78,6 @@ I also collaborate with companies for **academic research and practical implemen
 
 - Co-move in the Future? Stock Prediction with Dynamic Co-movement Graph, with Xi Chen. ***Ongoing research paper***.
 
-<!-- **Working Papers**
-- **Ziyue Wu**, Xi Chen\*. Estimating Weighted Peer Influence by Controlling Unobservable Homophily Using Deep Graph Learning. -->
 
 # 📖 Educations
 **2021.9 - 2026.6 (Expected)**, Ph.D. Candidate, Zhejiang University, School of Management. 
@@ -103,14 +103,16 @@ I also collaborate with companies for **academic research and practical implemen
 
 2018 **<font color="purple">[Scholarship]</font>**, National Scholarship (Top 2%).
 
-# 🎖 Invited Talks
-2023.12, Estimating the Impact of Social Bots in Opinion Diffusion in Social Networks. **Doctoral Forum in School of Management, Zhejiang University**.
+# 🎖 Conferences and Talks
+2024.1, What if Social Bots Be My Friends? Estimating Causal Effect of Social Bots Using Counterfactual Graph Learning. **Hawaii International Conference on Systems Sciences**, Honolulu, Hawaii, USA.
 
-2023.9, A Bayesian Non-parametric Method for Product Sales Forecasting. **Doctoral Forum in School of Management, Zhejiang University**.
+2023.12, Estimating the Impact of Social Bots in Opinion Diffusion in Social Networks. **Doctoral Forum in School of Management, Zhejiang University**, Hangzhou, Zhejiang, China.
 
-2023.7, Leverage Market Membership Information for Long-tail Product Discovery. **China Management Annual Conference**.
+2023.9, A Bayesian Non-parametric Method for Product Sales Forecasting. **Doctoral Forum in School of Management, Zhejiang University**, Hangzhou, Zhejiang, China.
 
-2022.12, A Network Representation Learning Approach to Identify Causality in Social Network Observational Data. **Annual Conference of Big Data Business Analytics and China Management Young Scholars Forum**. 
+2023.7, Leverage Market Membership Information for Long-tail Product Discovery. **China Management Annual Conference**, Urumqi, Xinjiang, China.
+
+2022.12, A Network Representation Learning Approach to Identify Causality in Social Network Observational Data. **Annual Conference of Big Data Business Analytics and China Management Young Scholars Forum**, Changchun, Jilin, China.
 
 
 # 💻 Activities and Exchange Experiences
@@ -127,3 +129,8 @@ I also collaborate with companies for **academic research and practical implemen
 Started from 2021.11, Asia-Pacific Student Entrepreneurship Society, Member.
 
 Started from 2020.5, Zhejiang University Morningside Culture China Scholars Program (12th), Member.
+
+
+---
+
+Last Modified on January 7, 2024
