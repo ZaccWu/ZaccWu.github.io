@@ -72,7 +72,7 @@ I also collaborate with companies for **academic research and practical implemen
 - **Ziyue Wu**, Yiqun Zhang, Xi Chen\*. (2024). What if Social Bots Be My Friends? Estimating Causal Effect of Social Bots Using Counterfactual Graph Learning. 57th ***Hawaii International Conference on Systems Sciences (HICSS)***.
 
 **Working Papers**
-- Uncovering the Long-tail: A Graph Representation Learning Approach for Product Recommendation, with Xi Chen, Ruijin Jin. ***Paper preparing for submission***.
+- Uncovering the Long-tail: Market Membership-Aware Bipartite Graph Learning for Product Recommendation, with Xi Chen, Ruijin Jin. ***Paper preparing for submission***.
 
 - Do Your Ties Affect Your Traits? A Graph Representation Learning Approach for Estimating Casual Peer Influence, with Xi Chen. ***Paper preparing for submission***.
 
@@ -112,7 +112,7 @@ I also collaborate with companies for **academic research and practical implemen
 
 2023.7, Leverage Market Membership Information for Long-tail Product Discovery. **China Management Annual Conference**, Urumqi, Xinjiang, China.
 
-2022.12, A Network Representation Learning Approach to Identify Causality in Social Network Observational Data. **Annual Conference of Big Data Business Analytics and China Management Young Scholars Forum**, Changchun, Jilin, China.
+2022.12, A Network Representation Learning Approach to Identify Causality in Social Network Observational Data. **Annual Conference of Big Data and Business Analytics**, Changchun, Jilin, China.
 
 
 # 💻 Activities and Exchange Experiences
@@ -124,7 +124,7 @@ I also collaborate with companies for **academic research and practical implemen
 
 # 💬 Services and Clubs
 
-2022.9 - 2023.9, Artificial Intelligence Association of Zhejiang University, Head of the academic department.
+2022.9 - 2023.9, Artificial Intelligence Association of Zhejiang University, Head of the Academic Department.
 
 Started from 2021.11, Asia-Pacific Student Entrepreneurship Society, Member.
 
