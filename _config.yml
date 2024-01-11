@@ -22,12 +22,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Ziyue Wu"
-  avatar           : "images/me.png"
+  avatar           : "images/me.jpg"
   bio              : "Zhejiang University, School of Management"
   location         : "Hangzhou, China"
   employer         :
   pubmed           : 
-  googlescholar    : # "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
+  googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=6EgNnKoAAAAJ"
   email            : "ziyuewu@zju.edu.cn"
   researchgate     : "https://www.researchgate.net/profile/Ziyue-Wu-5"
   uri              :
