@@ -9,6 +9,9 @@ main:
   - title: "Research Papers"
     url: "/#-research-papers"
 
+  - title: "Working Papers"
+    url: "/#-working-papers"
+
   - title: "Educations"
     url: "/#-educations"
   
@@ -18,8 +21,5 @@ main:
   - title: "Conferences and Talks"
     url: "/#-conferences-and-talks"
 
-  - title: "Activities and Exchange Experiences"
-    url: "/#-activities-and-exchange-experiences"
-
-  - title: "Services and clubs"
-    url: "/#-services-and-clubs"
+  - title: "Activities"
+    url: "/#-activities"
