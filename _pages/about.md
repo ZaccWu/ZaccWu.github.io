@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I'm **Ziyue (Zacc) Wu** (武子越), a 3rd-year Ph.D. student in the **School of Management, Zhejiang University**, advised by Professor [Xi Chen](https://person.zju.edu.cn/chenxi/). I received my **Bachelor's Degree with Dual Majors** in Statistics (STATS) and Information Systems (IS) at Chu Kochen Honors College, Zhejiang University, in 2021.  
+Hi, I'm **Ziyue (Zacc) Wu**, a 3rd-year Ph.D. student in the **School of Management, Zhejiang University**, advised by Professor [Xi Chen](https://person.zju.edu.cn/chenxi/). I received my **Bachelor's Degree with Dual Majors** in Statistics (STATS) and Information Systems (IS) at Chu Kochen Honors College, Zhejiang University, in 2021.  
 
 I'm enthusiastic about the **interdisciplinary fields of <font color="purple">Statistics, Machine Learning, and Business Studies</font>**, and devoted to data-driven managerial practices. My research aims to address crucial challenges in both academia and practical applications, drawing cutting-edge ideas in the field of **Statistics** and **Computer Science** to design novel methodological solutions adapted to these challenges. I also seek to unveil new mechanisms and principles in business scenarios, contributing to the advancement of managerial theories.
 

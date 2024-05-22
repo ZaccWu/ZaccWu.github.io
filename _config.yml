@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Ziyue Wu"
+title                    : "Zacc Wu"
 description              : "Ph.D candidate in Department of Data Science and Management Engineering"
 repository               : "ZaccWu/ZaccWu.github.io"
 google_scholar_stats_use_cdn : true
@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Ziyue Wu"
+  name             : "Zacc Wu"
   avatar           : "images/me.jpg"
   bio              : "Zhejiang University, School of Management"
   location         : "Hangzhou, China"
