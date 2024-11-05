@@ -33,35 +33,6 @@ I also collaborate with companies for **academic research and practical implemen
 
 
 
-<!-- # 🔥 Ongoing Projects
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/r5.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-### **Estimating the Effect of Social Bots in Networks Using Counterfactual Graph with Adversarial Learning.**
-
-**<font color="purple">Highlights</font>**
-- Examines the impact difference between humans and bots in influencing opinions in social networks. 
-- Designs an effective approach to conduct counterfactual inference in networks with graph neural networks and adversarial multitask learning.
-- The impact differences between bots and humans are overestimated without considering the underlying homophily.
-
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/r6.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-### **Learning the Shifting Attention: A Novel Framework for Blockbuster Content Prediction.**
-
-**<font color="purple">Highlights</font>**
-- An ongoing project with an E-commerce company for conducting content selection and blockbuster prediction.
-- Explore the internal and external factors fostering the generation of hotspots from the user attention perspective. 
-- Design a theory-driven multivariate time series transfer learning approach to handle the shifting attention and user dynamics.
-
-</div>
-</div> -->
-
-
 
 # 📝 Research Papers
 ### **Journal Papers**
@@ -72,30 +43,22 @@ I also collaborate with companies for **academic research and practical implemen
 
 **Ziyue Wu**, Yiqun Zhang, Xi Chen\*. (2024). What if Social Bots Be My Friends? Estimating Causal Effect of Social Bots Using Counterfactual Graph Learning. 57th ***Hawaii International Conference on Systems Sciences (HICSS)***. [[Paper]](https://scholarspace.manoa.hawaii.edu/items/67acb13c-4e3e-43cd-bbc6-c43fbfdfb4a1)
 
+<!-- 
 # 💬 Working Papers and Ongoing Projects
 
 ### **Uncovering the Long-tail: Market Membership-Aware Bipartite Graph Learning for Product Recommendation**
 
 With Xi Chen, Ruijin Jin. ***Paper preparing for submission***.
 
-<!-- **<font color="purple">Abstract:</font>** While superstar products may account for the head of sales, long-tail products often provide major profits for retailers. This study focuses on uncovering profitable long-tail products and enhancing product recommendations. One of the key challenges lies in the insufficiency of the sparse interactions to accurately reflect their quality and capture the demand patterns. Furthermore, the superstar effect makes classical interaction-based recommendation algorithms concentrate on popular products and neglect long-tail ones. To this end, we leverage market membership information from the perspective of the product-customer relationship and propose a novel graph representation learning approach that can (1) identify the underlying sub-markets to enrich the information regarding long-tail products, (2) model heterogeneous customer preferences within distinct sub-markets at a finer granularity, and (3) improve customer interaction prediction and product recommendations. Our empirical and synthetic experiments demonstrate the superior prediction performance of our approach. Moreover, we collaborate with a well-known e-commerce platform in China to conduct a field experiment and validate the effectiveness of our approach in real-world large-scale product recommendations, demonstrating the value of market membership information. Our approach also unveils novel product complementarities and corresponding customer groups by analyzing the identified submarkets, providing insights for online retailers. -->
-
----
 
 ### **Do Your Ties Affect Your Traits? A Graph Representation Learning Approach for Estimating Casual Peer Influence**
 
 With Xi Chen. ***Paper preparing for submission***.
 
-<!-- **<font color="purple">Abstract:</font>** Network data such as social relationships supports both theoretical research and practical applications in managerial studies. This study focuses on the challenge of unobservable homophilous sources in social networks, a key factor leading to confounding bias when examining the causal peer influence on individual behaviors. To tackle the issue, studies have attempted to leverage observable network ties to recover information about individual latent traits and control homophily. In this paper, we theoretically prove the insufficiency of structural information (i.e., network topology) and the essential of node contextual information for recovering individual traits in observational networks. Additionally, given the diverse factors influencing tie formation beyond homophily, we demonstrate that researchers should selectively leverage ties formed by endogenous factors. Building on these insights, we introduce CausalDG, a data-driven approach that enables us to (1) recover unobservable homophilous factors by incorporating both structural and contextual information in the absence of node features, and (2) adaptively leverage ties generated by endogenous factors under various network formation mechanisms to enhance the inference of individual latent traits and estimate the causal peer influence. We demonstrate the advantages of CausalDG in reducing the estimation bias of peer influence through extensive simulations. We also illustrate how CausalDG supports better decision-making using empirical networks. Moreover, our application and analysis in a large online social game underscore the capability of CausalDG to compensate for unavailable individual covariates when estimating peer influence. -->
-
----
-
 ### **Co-move in the Future? Stock Prediction with Dynamic Co-movement Graph**
 
 With Xi Chen. ***Ongoing research paper***.
-
-<!-- **<font color="purple">Abstract:</font>** Predicting future outcomes by uncovering transferable historical information in dynamic environments is a significant challenge in information systems research. This study focuses on the prediction of stock movements, a representative scenario characterized by high dynamics and a low signal-to-noise ratio. Existing research suggests that movement patterns of assets, such as stock returns, can be learned from related entities, such as the coordinated movements of other stock prices. However, historical dependency patterns may not persist in the future. Drawing on market signal theory and employing a design science approach, we propose utilizing stock co-movement information as a proxy task for stock price forecasting to distinguish endogenous and exogenous factors behind the observable dependencies and extract information capable of making generalizable forecasts. Our approach effectively handles complex long- and short-term co-movement patterns, outperforming state-of-the-art methods in forecasting stock movements and trading in Chinese stock markets. Our findings show that co-movement information can reveal common risks associated with stocks and possesses significant predictive ability. However, it is crucial to distinguish observable co-movements caused by exogenous shocks, as these patterns often undergo rapid changes. -->
-
+-->
 
 # 📖 Educations
 **2021.9 - 2026.6 (Expected)**, Ph.D. Candidate, Zhejiang University, School of Management. 
@@ -154,4 +117,4 @@ Started from 2020.5, Zhejiang University Morningside Culture China Scholars Prog
 
 ---
 
-Last Modified on January 11, 2024
+Last Modified on April 11, 2024
